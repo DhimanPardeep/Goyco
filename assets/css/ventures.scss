@@ -1,0 +1,119 @@
+.ventures {
+  background: #f8f9fa;
+}
+
+.venture-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+//   border-radius: 1.5rem;
+  height: 500px;
+  text-decoration: none;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .7s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.12);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.15),
+      transparent
+    );
+  }
+  
+}
+.venture-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(160,160,160,.55);
+}
+.venture-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 2.5rem;
+  color: #fff;
+  
+}
+
+
+.venture-tag {
+  display: inline-block;
+  background: #fff;
+  color: #082b52;
+  font-size: .85rem;
+  font-weight: 700;
+  padding: .75rem 1.5rem;
+  border-radius: 50px;
+  margin-bottom: 1.75rem;
+}
+
+.venture-overlay h3 {
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 2rem;
+}
+
+.venture-meta {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: .95rem;
+  opacity: .9;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .venture-card {
+    height: 400px;
+  }
+
+  .venture-overlay {
+    padding: 2rem;
+  }
+
+  .venture-overlay h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .venture-card {
+    height: 320px;
+    border-radius: 1rem;
+  }
+
+  .venture-overlay {
+    padding: 1.5rem;
+  }
+
+  .venture-overlay h3 {
+    font-size: 1.5rem;
+  }
+
+  .venture-meta {
+    font-size: .85rem;
+    gap: 1rem;
+  }
+}

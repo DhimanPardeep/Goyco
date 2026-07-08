@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goyco Org</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=family=Plus+Jakarta+Sans:wght@200..800&Atkinson+Hyperlegible:wght@400;700&family=Urbanist:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Compiled CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/toggler.css">
+    <link rel="stylesheet" href="assets/css/services.css">
+    <!-- <link rel="stylesheet" href="assets/css/ventures.css"> -->
+    <link rel="stylesheet" href="assets/css/clients.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/workway.css">
+    <link rel="stylesheet" href="assets/css/venturesnew.css">
+     <link rel="stylesheet" href="assets/css/workprocess.css">
+     <link rel="stylesheet" href="assets/css/achivementsnew.css">
+</head>
+<body>
+
+     <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="/">
+                    <img class="goco-logo" src="assets/images/Goyco.png" alt="Goyco">
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <!-- <button
+                    class="navbar-toggler border-0 shadow-none"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu"
+                >
+                    <i class="bi bi-list"></i>
+                </button> -->
+<button
+  class="navbar-toggler custom-toggler border-0 shadow-none"
+  type="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#mobileMenu"
+  aria-label="Toggle navigation"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+                <!-- Desktop Menu -->
+                <div class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" href="/">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="about-us.html">
+                                About Us
+                            </a>
+                        </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link text-uppercase dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown">
+                               Ventures
+                            </a>
+                            
+
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in" target="_blank">
+                                        Goyco Services
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Goyco Products
+                                    </a>
+                                </li>
+
+                                
+                            </ul>
+                        </li>
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="contact-us.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="https://workyard.in/"  target="_blank">
+                                Vacancy
+                            </a>
+                        </li>
+
+                        <!-- Login -->
+                        <li class="nav-item dropdown ms-lg-4">
+                            <button
+                                class="btn btn-login dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                            >
+                                Login
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Client Login
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Employee Login
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Admin Login
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Offcanvas -->
+    <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="mobileMenu"
+    >
+        <div class="offcanvas-header">
+
+            <a class="navbar-brand" href="/" >
+                    <img class="goco-logo" style="left:0" src="assets/images/Goyco.png" alt="Goyco">
+                </a>
+
+            <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+            ></button>
+
+        </div>
+
+        <div class="offcanvas-body">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">
+                        About US
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle w-100" data-bs-toggle="dropdown" href="#">
+                        Ventures
+                    </a>
+                    
+
+                    <ul class="dropdown-menu w-100 mt-0 border-0 bg-light">
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Goyco Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Goyco Products
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">
+                        Contact
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://workyard.in"  target="_blank">
+                        Vacancy
+                    </a>
+                </li>
+
+                
+                <li class="dropdown nav-item">
+                    <a
+                        class="nav-link dropdown-toggle w-100"
+                        data-bs-toggle="dropdown" href="#">
+                        Login
+                </a>
+
+                    <ul class="dropdown-menu w-100 mt-0 border-0 bg-light">
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Client Login
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Employee Login
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Admin Login
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+    <!--Carsoule-->
+    <section class="hero-slider">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide-to="0"
+        class="active">
+      </button>
+
+      <button
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide-to="1">
+      </button>
+
+      <button
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide-to="2">
+      </button>
+    </div>
+
+    <div class="carousel-inner">
+    <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img
+            src="assets/images/banner/1.jpg"
+            class="img-fluid hero-image w-100"
+            alt="">
+          <div class="carousel-item-content px-5">
+              <span class="hero-tag">
+                Transformating India by providing business solutions
+              </span>
+
+              <h1>
+                Innovate Indian market with expert team
+              </h1>
+
+              <p>
+                We empower your business with our services that accelerate
+                growth and improve efficiency of your business.
+              </p>
+
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#" class="btn btn-primary-custom">
+                  Get Started
+                </a>
+
+                <a href="#" class="btn btn-outline-custom">
+                  Our Services
+                </a>
+              </div>
+            </div>
+      </div>
+      <!-- Slide 2 -->
+       <div class="carousel-item">
+        <img
+              src="assets/images/banner/2.jpg"
+              class=" img-fluid hero-image w-100"
+              alt="">
+        
+            <div class="carousel-item-content px-5">
+              <span class="hero-tag">
+                Transformating India by providing business solutions
+              </span>
+
+              <h1>
+                Innovate Indian market with expert team
+              </h1>
+
+              <p>
+                We empower your business with our services that accelerate
+                growth and improve efficiency of your business.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#" class="btn btn-primary-custom">
+                  Get Started
+                </a>
+
+                <a href="#" class="btn btn-outline-custom">
+                  Our Services
+                </a>
+              </div>
+            </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img
+                src="assets/images/banner/3.jpg"
+                class=" img-fluid hero-image w-100"
+                alt="">
+       
+            <div class="carousel-item-content px-5">
+              <span class="hero-tag">
+                Transformating India by providing business solutions
+              </span>
+
+              <h1>
+                Innovate Indian market with expert team
+              </h1>
+
+              <p>
+                We empower your business with our services that accelerate
+                growth and improve efficiency of your business.
+              </p>
+
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#" class="btn btn-primary-custom">
+                  Get Started
+                </a>
+
+                <a href="#" class="btn btn-outline-custom">
+                  Our Services
+                </a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--Servicess-->
+<section class="solutions-section py-5">
+  <div class="container">
+
+    <div class="text-left mb-5">
+      
+        <a href="#" class="category-card" style="display: inline-block;">
+            Our Products
+          </a>
+      
+
+      <h4 >
+        Products that exclerate your business
+        
+      </h4>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-3">
+        <div class="solution-card">
+
+          <div class="solution-image">
+            <img
+              src="assets/images/ventture.png"
+              class="img-fluid"
+              alt=""
+            >
+          </div>
+
+          <h4>Work Yard</h4>
+
+          <p>
+            Custom enterprise applications and
+            scalable web solutions.
+          </p>
+<a href="#" class="btn btn-visit">
+      Visit Website
+      <i class="bi bi-arrow-up-right"></i>
+    </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="solution-card">
+
+          <div class="solution-image">
+            <img
+              src="assets/images/ventture.png"
+              class="img-fluid"
+              alt=""
+            >
+          </div>
+
+          <h4>Nev Spaces</h4>
+
+          <p>
+           We provide Consultancy to purchase lands
+          </p>
+<a href="#" class="btn btn-visit">
+      Visit Website
+      <i class="bi bi-arrow-up-right"></i>
+    </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="solution-card">
+
+          <div class="solution-image">
+            <img
+              src="assets/images/ventture.png"
+              class="img-fluid"
+              alt=""
+            >
+          </div>
+
+          <h4>Goyco Products</h4>
+
+          <p>
+            Native and cross-platform mobile
+            applications for businesses.
+          </p>
+<a href="#" class="btn btn-visit">
+      Visit Website
+      <i class="bi bi-arrow-up-right"></i>
+    </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="solution-card">
+
+          <div class="solution-image">
+            <img
+              src="assets/images/ventture.png"
+              class="img-fluid"
+              alt=""
+            >
+          </div>
+
+          <h4>Hangruu</h4>
+
+          <p>
+            Intelligent automation and
+            data-driven business insights.
+          </p>
+<a href="#" class="btn btn-visit">
+      Visit Website
+      <i class="bi bi-arrow-up-right"></i>
+    </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Our Ventures</h2>
+            <p class="text-muted">
+                Building successful brands across multiple industries with innovation and excellence.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Venture Card -->
+            <div class="col-lg-4 col-md-6">
+                <div class="venture-card h-100">
+
+                    <div class="venture-logo">
+                        <img src="assets/images/ventture.png" class="img-fluid" alt="">
+                    </div>
+
+                    <h4 class="mt-4 fw-semibold">
+                        Goyco Clothing Designers
+                    </h4>
+
+                    <p class="text-muted">
+                        Premium fashion brand offering timeless apparel and modern clothing collections.
+                    </p>
+
+                    <ul class="venture-services">
+                        <li><i class="bi bi-check2-circle"></i> Men's Fashion</li>
+                        <li><i class="bi bi-check2-circle"></i> Women's Fashion</li>
+                        <li><i class="bi bi-check2-circle"></i> Designer Collections</li>
+                        <li><i class="bi bi-check2-circle"></i> Custom Clothing</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary rounded-pill mt-auto">
+                        <i class="bi bi-globe me-2"></i>
+                        Visit Website
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Venture Card -->
+            <div class="col-lg-4 col-md-6">
+                <div class="venture-card h-100">
+
+                    <div class="venture-logo">
+                        <img src="assets/images/ventture.png" class="img-fluid" alt="">
+                    </div>
+
+                    <h4 class="mt-4 fw-semibold">
+                        Goyco Antiques
+                    </h4>
+
+                    <p class="text-muted">
+                        Curating timeless antiques and vintage décor for elegant living spaces.
+                    </p>
+
+                    <ul class="venture-services">
+                        <li><i class="bi bi-check2-circle"></i> Vintage Décor</li>
+                        <li><i class="bi bi-check2-circle"></i> Antique Furniture</li>
+                        <li><i class="bi bi-check2-circle"></i> Collectibles</li>
+                        <li><i class="bi bi-check2-circle"></i> Home Styling</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary rounded-pill mt-auto">
+                        <i class="bi bi-globe me-2"></i>
+                        Visit Website
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Venture Card -->
+            <div class="col-lg-4 col-md-6">
+                <div class="venture-card h-100">
+
+                    <div class="venture-logo">
+                        <img src="assets/images/ventture.png" class="img-fluid" alt="">
+                    </div>
+
+                    <h4 class="mt-4 fw-semibold">
+                        Goyco Technologies
+                    </h4>
+
+                    <p class="text-muted">
+                        Delivering innovative digital solutions for modern businesses.
+                    </p>
+
+                    <ul class="venture-services">
+                        <li><i class="bi bi-check2-circle"></i> Web Development</li>
+                        <li><i class="bi bi-check2-circle"></i> Mobile Apps</li>
+                        <li><i class="bi bi-check2-circle"></i> ERP Solutions</li>
+                        <li><i class="bi bi-check2-circle"></i> Cloud Services</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary rounded-pill mt-auto">
+                        <i class="bi bi-globe me-2"></i>
+                        Visit Website
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!--Ventures-->
+<!-- <section class="ventures solutions-section py-5">
+  <div class="container">
+    <div class="text-Center mb-5">
+      <a href="#" class="category-card" style="display: inline-block;">
+            Our Ventures
+          </a>
+
+      <h4 >
+       Our ventures that provides solutions to empower your business
+      </h4>
+    </div>
+    <div class="row g-4">
+
+      <div class="col-lg-6">
+        <a href="#" class="venture-card">
+          <img src="assets/images/banner/1.jpg" alt="Travel">
+
+          <div class="venture-overlay">
+            <span class="venture-tag"><h6>Goyco Antiques Every Piece Tells a Story</h6></span>
+
+            <h3>
+              Goyco Antiques specializes in luxury antiques, vintage décor, royal collectibles, or heritage furniture
+            </h3>
+
+            <div class="venture-meta">
+              <span><i class="bi bi-cart"></i> Buy Products</span>
+              <span><i class="bi bi-globe"></i> Visit Website</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-lg-6">
+        <a href="#" class="venture-card">
+          <img src="assets/images/banner/2.jpg" alt="Lifestyle">
+
+          <div class="venture-overlay">
+            <span class="venture-tag"><h6> Goyco Clothing Crafting Style. Defining Confidence.</h6></span>
+
+            <h3>
+              At Goyco Clothing Designers, we create fashion that blends timeless elegance with contemporary trends.
+            </h3>
+
+            <div class="venture-meta">
+              <span><i class="bi bi-cart"></i> Buy Products</span>
+              <span><i class="bi bi-globe"></i> Visit Website</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  
+</section> -->
+<!--Work Way-->
+<section class="work-process py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">How We Work</h2>
+            <p class="text-muted">
+                Our structured approach ensures every venture delivers quality,
+                innovation, and customer satisfaction.
+            </p>
+        </div>
+
+        <div class="timeline">
+
+            <!-- Step -->
+            <div class="timeline-item">
+
+                <div class="timeline-number">
+                    01
+                </div>
+
+                <div class="timeline-card">
+
+                    <div class="icon">
+                        <i class="bi bi-chat-square-text"></i>
+                    </div>
+
+                    <h4>Discovery & Consultation</h4>
+
+                    <p>
+                        We understand your requirements, business goals,
+                        and expectations before planning the solution.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Step -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-number">
+                    02
+                </div>
+
+                <div class="timeline-card">
+
+                    <div class="icon">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+
+                    <h4>Planning & Strategy</h4>
+
+                    <p>
+                        Our experts prepare a roadmap focusing on quality,
+                        innovation and long-term success.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Step -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-number">
+                    03
+                </div>
+
+                <div class="timeline-card">
+
+                    <div class="icon">
+                        <i class="bi bi-gear"></i>
+                    </div>
+
+                    <h4>Execution</h4>
+
+                    <p>
+                        Dedicated teams implement the strategy using
+                        modern technologies and industry best practices.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Step -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-number">
+                    04
+                </div>
+
+                <div class="timeline-card">
+
+                    <div class="icon">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+
+                    <h4>Quality Assurance</h4>
+
+                    <p>
+                        Every deliverable undergoes strict quality checks
+                        to ensure excellence and reliability.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Step -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-number">
+                    05
+                </div>
+
+                <div class="timeline-card">
+
+                    <div class="icon">
+                        <i class="bi bi-rocket-takeoff"></i>
+                    </div>
+
+                    <h4>Launch & Support</h4>
+
+                    <p>
+                        We continue supporting our clients long after
+                        delivery to ensure continuous growth.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Achievements & Expertise</h2>
+            <p class="text-muted">
+                Delivering excellence through innovation, experience, and measurable success.
+            </p>
+        </div>
+
+        <div class="row g-5 align-items-center">
+
+            <!-- ================= Achievements ================= -->
+
+            <div class="col-lg-5">
+
+                <h3 class="fw-bold mb-4">
+                    Our Achievements
+                </h3>
+
+                <div class="row g-4">
+
+                    <div class="col-6">
+                        <div class="achievement-card">
+                            <i class="bi bi-building"></i>
+                            <h2>25+</h2>
+                            <p>Business Ventures</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="achievement-card">
+                            <i class="bi bi-people"></i>
+                            <h2>50K+</h2>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="achievement-card">
+                            <i class="bi bi-award"></i>
+                            <h2>100+</h2>
+                            <p>Industry Awards</p>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="achievement-card">
+                            <i class="bi bi-globe"></i>
+                            <h2>15+</h2>
+                            <p>Countries Served</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Divider -->
+
+            <div class="col-lg-1 d-none d-lg-flex justify-content-center">
+                <div class="vertical-divider"></div>
+            </div>
+
+            <!-- ================= Expertise ================= -->
+
+            <div class="col-lg-6">
+
+                <h3 class="fw-bold mb-4">
+                    Our Expertise
+                </h3>
+
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+                        <div class="expertise-card">
+                            <i class="bi bi-lightbulb"></i>
+                            <h5>Innovation</h5>
+                            <p>Creative ideas transformed into successful businesses.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="expertise-card">
+                            <i class="bi bi-stars"></i>
+                            <h5>Premium Quality</h5>
+                            <p>Maintaining the highest standards across every venture.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="expertise-card">
+                            <i class="bi bi-graph-up-arrow"></i>
+                            <h5>Business Growth</h5>
+                            <p>Helping brands scale through strategic planning.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="expertise-card">
+                            <i class="bi bi-shield-check"></i>
+                            <h5>Trust & Integrity</h5>
+                            <p>Building long-term relationships through reliability.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<section class="how-we-work py-5">
+  <div class="container">
+<div class="text-center mb-5">
+      <h2 class="fw-bold">How do we work</h2>
+      <p class="text-muted">
+        Process of 3 steps
+      </p>
+    </div>
+    <div class="row g-5">
+
+      <!-- Left Side -->
+      <div class="col-lg-8">
+
+        <div class="work-card">
+          <div class="work-image">
+            <img src="assets/images/banner/1.jpg" alt="">
+          </div>
+
+          <div class="work-content">
+            <span class="work-tag">STEP 01</span>
+
+            <h3>Discover & Understand Business Requirements</h3>
+
+            <p>
+              We understand your business objectives, challenges,
+              and define the roadmap for a successful project.
+            </p>
+
+            <a href="#">
+              Learn More
+              <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-image">
+            <img src="assets/images/banner/2.jpg" alt="">
+          </div>
+
+          <div class="work-content">
+            <span class="work-tag">STEP 02</span>
+
+            <h3>Design & Develop Innovative Solutions</h3>
+
+            <p>
+              Our experts build scalable and secure solutions
+              tailored specifically to your requirements.
+            </p>
+
+            <a href="#">
+              Learn More
+              <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="work-card">
+          <div class="work-image">
+            <img src="assets/images/banner/3.jpg" alt="">
+          </div>
+
+          <div class="work-content">
+            <span class="work-tag">STEP 03</span>
+
+            <h3>Deploy, Support & Continuous Improvement</h3>
+
+            <p>
+              We ensure smooth deployment and provide continuous
+              support and enhancements for long-term success.
+            </p>
+
+            <a href="#">
+              Learn More
+              <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Side -->
+      <div class="col-lg-4">
+
+        <div class="sidebar-box">
+          <h4>Our Achievements</h4>
+
+          <div class="achievement-item">
+            <h2>150+</h2>
+            <p>Projects Delivered</p>
+          </div>
+
+          <div class="achievement-item">
+            <h2>50+</h2>
+            <p>Enterprise Clients</p>
+          </div>
+
+          <div class="achievement-item">
+            <h2>8+</h2>
+            <p>Years Experience</p>
+          </div>
+
+          <div class="achievement-item">
+            <h2>98%</h2>
+            <p>Client Satisfaction</p>
+          </div>
+        </div>
+
+        <div class="sidebar-box">
+          <h4>Our Expertise</h4>
+
+          <a href="#" class="category-card">
+            Web Development
+          </a>
+
+          <a href="#" class="category-card">
+            Mobile Applications
+          </a>
+
+          <a href="#" class="category-card">
+            Cloud Solutions
+          </a>
+
+          <a href="#" class="category-card">
+            Digital Transformation
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!--Clients-->
+  <section class="clients py-5">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">What Our Clients Say</h2>
+      <p class="text-muted">
+        Trusted by organizations across industries.
+      </p>
+    </div>
+
+    <div class="clients-slider">
+      <div class="clients-track">
+
+        <!-- Card -->
+        <div class="client-card">
+          <img src="assets/images/1.jpg" class="client-img" alt="Client">
+
+          <div class="client-content">
+            <h5>John Anderson</h5>
+            <span class="client-role">
+              CEO, ABC Technologies
+            </span>
+
+            <a href="#" class="client-link">
+              www.abctech.com
+            </a>
+
+            <p>
+              GOYCO delivered exceptional solutions and exceeded our expectations.
+              Their professionalism and technical expertise were outstanding.
+            </p>
+
+            <div class="client-rating">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+
+        <!-- Duplicate more cards -->
+        <div class="client-card">
+          <img src="assets/images/2.jpg" class="client-img" alt="Client">
+
+          <div class="client-content">
+            <h5>Sarah Wilson</h5>
+            <span class="client-role">
+              Director, Global Ventures
+            </span>
+
+            <a href="#" class="client-link">
+              www.globalventures.com
+            </a>
+
+            <p>
+              The GOYCO team was responsive, innovative, and delivered everything
+              on time.
+            </p>
+
+            <div class="client-rating">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+<div class="client-card">
+          <img src="assets/images/2.jpg" class="client-img" alt="Client">
+
+          <div class="client-content">
+            <h5>Sarah Wilson</h5>
+            <span class="client-role">
+              Director, Global Ventures
+            </span>
+
+            <a href="#" class="client-link">
+              www.globalventures.com
+            </a>
+
+            <p>
+              The GOYCO team was responsive, innovative, and delivered everything
+              on time.
+            </p>
+
+            <div class="client-rating">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <div class="client-card">
+          <img src="assets/images/2.jpg" class="client-img" alt="Client">
+
+          <div class="client-content">
+            <h5>Sarah Wilson</h5>
+            <span class="client-role">
+              Director, Global Ventures
+            </span>
+
+            <a href="#" class="client-link">
+              www.globalventures.com
+            </a>
+
+            <p>
+              The GOYCO team was responsive, innovative, and delivered everything
+              on time.
+            </p>
+
+            <div class="client-rating">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+        <!-- Duplicate cards again for seamless loop -->
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--Contact Form-->
+<section class="contact-section py-5">
+  <div class="container">
+
+    <div class="contact-wrapper">
+
+      <div class="row g-0">
+
+        <!-- Left Side -->
+        <div class="col-lg-5">
+          <div class="contact-info">
+
+            <div class="section-heading">
+              <span>GET IN TOUCH</span>
+              <h2>Let's Build Something Great Together</h2>
+              <p>
+                Reach out to our offices or send us a message.
+                We would love to hear from you.
+              </p>
+            </div>
+
+            <!-- Office 1 -->
+            <div class="office-card">
+              <div class="office-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+
+              <div>
+                <h6>India Office</h6>
+                <p>
+                  SCO 123, Sector 17<br>
+                  Chandigarh, India
+                </p>
+
+                <a href="tel:+911234567890">
+                  +91 12345 67890
+                </a>
+              </div>
+            </div>
+
+            <!-- Office 2 -->
+            <div class="office-card">
+              <div class="office-icon">
+                <i class="bi bi-building"></i>
+              </div>
+
+              <div>
+                <h6>Dubai Office</h6>
+                <p>
+                  Business Bay<br>
+                  Dubai, UAE
+                </p>
+
+                <a href="tel:+971123456789">
+                  +971 12345 6789
+                </a>
+              </div>
+            </div>
+
+            <!-- Google Map -->
+            <div class="map-box">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=YOUR_MAP_URL"
+                loading="lazy"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="col-lg-7">
+          <div class="contact-form">
+
+            <h3>Send Us a Message</h3>
+
+            <form>
+
+              <div class="row g-4">
+
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Full Name">
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address">
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Phone Number">
+                </div>
+
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Company Name">
+                </div>
+
+                <div class="col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject">
+                </div>
+
+                <div class="col-12">
+                  <textarea
+                    rows="5"
+                    class="form-control"
+                    placeholder="Tell us about your project">
+                  </textarea>
+                </div>
+
+                <div class="col-12">
+                  <button class="btn btn-goco">
+                    Send Message
+                    <i class="bi bi-arrow-right ms-2"></i>
+                  </button>
+                </div>
+
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!--Footer-->
+<footer class="footer">
+
+  <div class="container">
+
+    <div class="row gy-5">
+
+      <!-- Company -->
+      <div class="col-lg-4 col-md-6">
+        <img
+          src="assets/images/Goyco.png"
+          alt="GOYCO"
+          class="my-0 goco-footer-logo">
+
+        <p class="footer-desc mt-5 pt-3">
+          GOYCO delivers innovative technology solutions,
+          digital transformation, and enterprise consulting
+          services for modern businesses.
+        </p>
+
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="col-lg-2 col-md-6">
+        <h5>Quick Links</h5>
+
+        <ul class="footer-links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Ventures</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-lg-3 col-md-6">
+        <h5>Solutions</h5>
+
+        <ul class="footer-links">
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Mobile Apps</a></li>
+          <li><a href="#">Cloud Solutions</a></li>
+          <li><a href="#">Consulting</a></li>
+          <li><a href="#">Digital Transformation</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-3 col-md-6">
+        <h5>Contact Us</h5>
+
+        <div class="footer-contact">
+          <p>
+            <i class="bi bi-telephone"></i>
+            +91 12345 67890
+          </p>
+
+          <p>
+            <i class="bi bi-envelope"></i>
+            hello@goyco.com
+          </p>
+
+          <p>
+            <i class="bi bi-geo-alt"></i>
+            Chandigarh, India
+          </p>
+        </div>
+
+        <form class="newsletter">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your Email">
+
+          <button class="btn">
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div
+      class="footer-bottom d-flex
+      flex-column flex-md-row
+      justify-content-between
+      align-items-center">
+
+      <p>
+        © 2026 GOYCO. All Rights Reserved.
+      </p>
+
+      <div>
+        <a href="#">Privacy Policy</a>
+        <span>|</span>
+        <a href="#">Terms & Conditions</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

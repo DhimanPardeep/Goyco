@@ -1,0 +1,101 @@
+.solutions-section {
+  background: #f8fbff;
+}
+.solutions-section .section-tag {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  border-radius: 10px;
+  background: rgba(239, 128, 47, 0.1);
+  color: #ef802f;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-bottom: 1rem;
+}
+.solutions-section .section-title {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: black;
+}
+
+.solution-card {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  height: 100%;
+  transition: all 0.35s ease;
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.01);
+  position: relative;
+  overflow: hidden;
+}
+.solution-card .solution-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-card .solution-image img {
+  width: 150px;
+  transition: transform 0.4s ease;
+}
+.solution-card h4 {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 1rem;
+}
+.solution-card p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #64748b;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+.solution-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.12);
+}
+.solution-card:hover::before {
+  transform: scale(1.4);
+}
+.solution-card:hover .solution-image img {
+  transform: scale(1.1) rotate(8deg);
+}
+
+.btn-visit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(239, 128, 47, 0.12);
+  color: #ef802f;
+  border-radius: 5px;
+  padding: 0.55rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.btn-visit i {
+  font-size: 0.875rem;
+  transition: transform 0.3s ease;
+}
+.btn-visit:hover {
+  background: #ef802f;
+  color: #fff;
+}
+.btn-visit:hover i {
+  transform: translate(3px, -3px);
+}
+
+.btn-visit {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.solution-card:hover .btn-visit {
+  opacity: 1;
+  transform: translateY(0);
+}/*# sourceMappingURL=services.css.map */

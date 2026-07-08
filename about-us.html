@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goyco Org</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=family=Plus+Jakarta+Sans:wght@200..800&Atkinson+Hyperlegible:wght@400;700&family=Urbanist:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Compiled CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/toggler.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+     <link rel="stylesheet" href="assets/css/aboutus.css">
+</head>
+<body>
+
+     <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="/">
+                    <img class="goco-logo" src="assets/images/Goyco.png" alt="Goyco">
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <!-- <button
+                    class="navbar-toggler border-0 shadow-none"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu"
+                >
+                    <i class="bi bi-list"></i>
+                </button> -->
+<button
+  class="navbar-toggler custom-toggler border-0 shadow-none"
+  type="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#mobileMenu"
+  aria-label="Toggle navigation"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+                <!-- Desktop Menu -->
+                <div class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" href="/">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="about-us.html">
+                                About Us
+                            </a>
+                        </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link text-uppercase dropdown-toggle" href="#"
+                            data-bs-toggle="dropdown">
+                               Ventures
+                            </a>
+                            
+
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in" target="_blank">
+                                        Goyco Services
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Goyco Products
+                                    </a>
+                                </li>
+
+                                
+                            </ul>
+                        </li>
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="contact-us.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="https://workyard.in/"  target="_blank">
+                                Vacancy
+                            </a>
+                        </li>
+
+                        <!-- Login -->
+                        <li class="nav-item dropdown ms-lg-4">
+                            <button
+                                class="btn btn-login dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                            >
+                                Login
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Client Login
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Employee Login
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                        Admin Login
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Offcanvas -->
+    <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="mobileMenu"
+    >
+        <div class="offcanvas-header">
+
+            <a class="navbar-brand" href="/" >
+                    <img class="goco-logo" style="left:0" src="assets/images/Goyco.png" alt="Goyco">
+                </a>
+
+            <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+            ></button>
+
+        </div>
+
+        <div class="offcanvas-body">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">
+                        About US
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle w-100" data-bs-toggle="dropdown" href="#">
+                        Ventures
+                    </a>
+                    
+
+                    <ul class="dropdown-menu w-100 mt-0 border-0 bg-light">
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Goyco Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Goyco Products
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">
+                        Contact
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://workyard.in"  target="_blank">
+                        Vacancy
+                    </a>
+                </li>
+
+                
+                <li class="dropdown nav-item">
+                    <a
+                        class="nav-link dropdown-toggle w-100"
+                        data-bs-toggle="dropdown" href="#">
+                        Login
+                </a>
+
+                    <ul class="dropdown-menu w-100 mt-0 border-0 bg-light">
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Client Login
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Employee Login
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
+                                Admin Login
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<section class="about-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container position-relative">
+
+        <div class="row align-items-center min-vh-100">
+
+            <div class="col-lg-10">
+
+                <span class="hero-badge text-white">
+                    ABOUT GOYCO
+                </span>
+
+                <h1 class="display-4 fw-bold text-white mt-4">
+                    SHORT BRIEFING OF GOYCO
+                    <span>CO-WORKING SPACES</span>
+                </h1>
+
+                <p class="lead text-white mt-4">
+                    Goyco delivers innovative software solutions that empower businesses through technology, creativity, and digital transformation.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="py-5 bg-white">
+
+<div class="container">
+
+<div class="row align-items-center g-5">
+
+<div class="col-lg-6">
+
+<div class="about-image">
+
+<img src="/assets/images/banner/2.jpg" class="img-fluid rounded-4">
+
+</div>
+
+</div>
+
+<div class="col-lg-6">
+
+<span class="section-title">
+ABOUT US
+</span>
+
+<h2 class="fw-bold mb-4">
+SHORT BRIEFING OF WORKYARD CO-WORKING SPACES
+</h2>
+
+<p>
+
+WorkYard Coworking Spaces are Pocket Friendly Coworking Spaces focusing on providing the Value for Money experience. WorkYard Coworking Spaces were founded by our Founder i.e. Mr Hemant Goyal in 2019. 
+
+</p>
+
+<p>
+
+WorkYard currently has 2 Premises operational, first one is in Business & Industrial Park (eka Industrial Area), Phase 2, Chandigarh (Since 2019) and second one is in Sector 5 (eka Peermuchalla), Zirakpur, SAS Nagar. We are currently Operational only in Chandigarh Tri-City.
+
+</p>
+
+<div class="row mt-5">
+
+<div class="col-6">
+
+<div class="counter-card">
+
+<h3>100+</h3>
+
+<p>Projects</p>
+
+</div>
+
+</div>
+
+<div class="col-6">
+
+<div class="counter-card">
+
+<h3>25+</h3>
+
+<p>Experts</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="mission-section py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">
+Mission & Vision
+</h2>
+
+<p class="text-muted">
+Building technology that empowers businesses.
+</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-6">
+
+<div class="mission-card h-100">
+
+<div class="icon-circle">
+
+<i class="bi bi-bullseye"></i>
+
+</div>
+
+<h3>Our Mission</h3>
+
+<p>
+
+Deliver innovative, scalable, and reliable software solutions that simplify business operations while creating long-term value for our clients.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-6">
+
+<div class="mission-card h-100">
+
+<div class="icon-circle">
+
+<i class="bi bi-stars"></i>
+
+</div>
+
+<h3>Our Vision</h3>
+
+<p>
+
+To become a globally trusted technology partner recognized for innovation, excellence, and transforming businesses through digital solutions.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="py-5 bg-white">
+
+<div class="container">
+
+<div class="row align-items-center g-5">
+
+<div class="col-lg-4">
+
+<div class="ceo-image">
+
+<img src="assets/images/ceo.jpg" class="img-fluid rounded-circle shadow">
+
+</div>
+
+</div>
+
+<div class="col-lg-8">
+
+<div class="ceo-note">
+
+<h5 class="text-primary">
+Message from Our CEO Mr Hemant Goyal
+</h5>
+
+<h2 class="fw-bold">
+Leading with Innovation & Integrity
+</h2>
+
+<p>
+
+Technology should simplify business, not complicate it. At Goyco, our commitment is to create meaningful digital solutions that help organizations grow, innovate, and remain competitive in a rapidly evolving world.
+
+</p>
+
+<h5 class="mt-4 text-warning">
+— CEO, Goyco
+</h5>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="department-section py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">
+Our Departments
+</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-3">
+
+<div class="department-card">
+
+<i class=" bi bi-bank"></i>
+
+<h4>Legal</h4>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="department-card">
+
+<i class="bi bi-palette"></i>
+
+<h4>UI / UX</h4>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="department-card">
+
+<i class="bi bi-files"></i>
+
+<h4>Documentation</h4>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="department-card">
+
+<i class="bi bi-headset"></i>
+
+<h4>Support</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 
+<section class="team-section py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">
+Meet Our Team
+</h2>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-3">
+
+<div class="team-card">
+
+<img src="assets/images/ceo.jpg">
+
+<div class="team-info">
+
+<h5>Hemant Goyal</h5>
+
+<p>CEO</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="team-card">
+
+<img src="assets/images/ceo.jpg">
+
+<div class="team-info">
+
+<h5>Hemant Goyal</h5>
+
+<p>CEO</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="team-card">
+
+<img src="assets/images/ceo.jpg">
+
+<div class="team-info">
+
+<h5>David</h5>
+
+<p>Backend Developer</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<div class="team-card">
+
+<img src="assets/images/ceo.jpg">
+
+<div class="team-info">
+
+<h5>Hemant Goyal</h5>
+
+<p>CEO</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section> -->
+<section class="team-section py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <span class="section-tag">Our Team</span>
+            <h2 class="fw-bold mt-2">Meet Our Leadership</h2>
+            <p class="text-muted">
+                Experienced professionals committed to innovation, excellence, and delivering exceptional value.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Member -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="team-card">
+
+                    <div class="team-image">
+                        <img src="assets/images/ceo.jpg" alt="">
+                    </div>
+
+                    <div class="team-content">
+
+                        <h4>John Anderson</h4>
+
+                        <span class="designation">
+                            Chief Executive Officer
+                        </span>
+
+                        <p>
+                            Visionary leader driving innovation, strategy and long-term business growth.
+                        </p>
+
+                        <div class="team-social">
+
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-envelope"></i></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Copy for other members -->
+
+        </div>
+
+    </div>
+</section>
+    <!--Footer-->
+<footer class="footer">
+
+  <div class="container">
+
+    <div class="row gy-5">
+
+      <!-- Company -->
+      <div class="col-lg-4 col-md-6">
+        <img
+          src="assets/images/Goyco.png"
+          alt="GOYCO"
+          class="my-0 goco-footer-logo">
+
+        <p class="footer-desc mt-5 pt-3">
+          GOYCO delivers innovative technology solutions,
+          digital transformation, and enterprise consulting
+          services for modern businesses.
+        </p>
+
+        <div class="footer-social">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="col-lg-2 col-md-6">
+        <h5>Quick Links</h5>
+
+        <ul class="footer-links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Ventures</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-lg-3 col-md-6">
+        <h5>Solutions</h5>
+
+        <ul class="footer-links">
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Mobile Apps</a></li>
+          <li><a href="#">Cloud Solutions</a></li>
+          <li><a href="#">Consulting</a></li>
+          <li><a href="#">Digital Transformation</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-3 col-md-6">
+        <h5>Contact Us</h5>
+
+        <div class="footer-contact">
+          <p>
+            <i class="bi bi-telephone"></i>
+            +91 12345 67890
+          </p>
+
+          <p>
+            <i class="bi bi-envelope"></i>
+            hello@goyco.com
+          </p>
+
+          <p>
+            <i class="bi bi-geo-alt"></i>
+            Chandigarh, India
+          </p>
+        </div>
+
+        <form class="newsletter">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your Email">
+
+          <button class="btn">
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div
+      class="footer-bottom d-flex
+      flex-column flex-md-row
+      justify-content-between
+      align-items-center">
+
+      <p>
+        © 2026 GOYCO. All Rights Reserved.
+      </p>
+
+      <div>
+        <a href="#">Privacy Policy</a>
+        <span>|</span>
+        <a href="#">Terms & Conditions</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

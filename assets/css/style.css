@@ -1,0 +1,113 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  color: #232323;
+  background: #f8fafc;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background: #ffffff;
+  box-shadow: 0 3px 20px rgba(15, 23, 42, 0.08);
+}
+.site-header .navbar {
+  min-height: 80px;
+}
+.site-header .navbar-brand {
+  font-family: "Plus Jakarta Sans", "Atkinson Hyperlegible", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  letter-spacing: 1px;
+}
+.site-header .navbar-nav {
+  gap: 0.5rem;
+}
+.site-header .nav-link {
+  font-family: "Plus Jakarta Sans", "Atkinson Hyperlegible", sans-serif;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: #232323;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+.site-header .nav-link:hover, .site-header .nav-link.active {
+  color: rgba(0, 0, 0, 0.3019607843);
+}
+.site-header .btn-login {
+  background: #ef802f;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-family: "Plus Jakarta Sans", "Atkinson Hyperlegible", sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.site-header .btn-login:hover, .site-header .btn-login:focus {
+  background: #ef802f;
+  color: #fff;
+}
+.site-header .dropdown-menu {
+  border: 0;
+  border-radius: 16px;
+  padding: 0.5rem;
+  min-width: 220px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+}
+.site-header .dropdown-menu .dropdown-item {
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+}
+.site-header .dropdown-menu .dropdown-item:hover {
+  background: rgba(247, 119, 94, 0.1);
+  color: #ef802f;
+}
+
+.navbar-toggler {
+  padding: 0;
+  border: 0;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler i {
+  font-size: 2rem;
+  color: #1e293b;
+}
+
+.offcanvas {
+  width: 300px;
+}
+.offcanvas .offcanvas-title {
+  font-family: "Plus Jakarta Sans", "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.offcanvas .nav-link {
+  font-family: "Plus Jakarta Sans", "Atkinson Hyperlegible", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #334155;
+  padding: 0.85rem 0;
+}
+.offcanvas .nav-link:hover, .offcanvas .nav-link.active {
+  color: #ef802f;
+}
+
+.hero-section {
+  padding: 120px 0;
+}
+.hero-section h1 {
+  font-family: "Plus Jakarta Sans", "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+.hero-section p {
+  font-size: 1.125rem;
+  color: #64748b;
+}/*# sourceMappingURL=style.css.map */
