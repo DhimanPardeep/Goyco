@@ -1,7 +1,137 @@
+/* mulish-200 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/mulish/mulish-v18-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-200italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/mulish/mulish-v18-latin-200italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/mulish/mulish-v18-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-300italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/mulish/mulish-v18-latin-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/mulish/mulish-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/mulish/mulish-v18-latin-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/mulish/mulish-v18-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-500italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/mulish/mulish-v18-latin-500italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/mulish/mulish-v18-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-600italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/mulish/mulish-v18-latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/mulish/mulish-v18-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-700italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/mulish/mulish-v18-latin-700italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/mulish/mulish-v18-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-800italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/mulish/mulish-v18-latin-800italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/mulish/mulish-v18-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* mulish-900italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Mulish";
+  font-style: italic;
+  font-weight: 900;
+  src: url("../fonts/mulish/mulish-v18-latin-900italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 .contact-hero {
-  min-height: 100vh;
-  background: linear-gradient(rgba(7, 60, 115, 0.65), rgba(10, 93, 170, 0.5)), url(../images/banner/2.jpg) center/cover;
+  height: 400px;
+  background: linear-gradient(rgba(7, 60, 115, 0.65), rgba(10, 93, 170, 0.01)), url(../images/banner/2.jpg) center center/cover no-repeat;
   position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .badge-contact {
@@ -15,7 +145,7 @@
 
 .contact-card {
   background: white;
-  padding: 45px 30px;
+  padding: 15px 5px;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
@@ -32,7 +162,7 @@
 
 .contact-card:hover {
   transform: translateY(-10px);
-  background: #0A5DAA;
+  background: #2e80ad;
   color: white;
 }
 
@@ -54,7 +184,7 @@
 }
 
 .form-control:focus {
-  border-color: #0A5DAA;
+  border-color: #2e80ad;
   box-shadow: 0 0 0 0.2rem rgba(10, 93, 170, 0.15);
 }
 
@@ -68,7 +198,7 @@
 
 .office-card {
   background: white;
-  padding: 40px;
+  padding: 10px;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
@@ -78,12 +208,12 @@
 
 .office-card i {
   font-size: 45px;
-  color: #FF8A1F;
+  color: #ff8a24;
   margin-bottom: 20px;
 }
 
 .office-card:hover {
-  background: #0A5DAA;
+  background: #2e80ad;
   color: white;
   transform: translateY(-10px);
 }
@@ -94,6 +224,6 @@
 
 .contact-footer {
   padding: 100px 0;
-  background: linear-gradient(135deg, #073C73, #0A5DAA);
+  background: linear-gradient(135deg, #2e80ad, #2277aa);
   color: white;
 }/*# sourceMappingURL=contactself.css.map */

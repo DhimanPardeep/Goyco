@@ -1,28 +1,21 @@
+@import 'variables';
+.venture-container
+{
+    background: #f8fafc;
+}
 .venture-card{
     position:relative;
     display:flex;
     flex-direction:column;
     padding:35px;
     border-radius:22px;
-    background:#fff;
+    background:$body-bg;
     overflow:hidden;
     transition:.45s;
     border:1px solid #ececec;
     box-shadow:0 10px 35px rgba(0,0,0,.06);
 }
-.btn-primary{
-    --bs-btn-bg:#0a5daa;
-    --bs-btn-border-color:#0a5daa;
 
-    --bs-btn-hover-bg:#084d8c;
-    --bs-btn-hover-border-color:#084d8c;
-
-    --bs-btn-active-bg:#073c73;
-    --bs-btn-active-border-color:#073c73;
-
-    --bs-btn-disabled-bg:#0a5daa;
-    --bs-btn-disabled-border-color:#0a5daa;
-}
 .venture-card::before{
     content:"";
     position:absolute;
@@ -30,12 +23,12 @@
     top:0;
     width:100%;
     height:5px;
-    background:linear-gradient(90deg,#084d8c,#0a5daa);
+    background:linear-gradient(90deg,$primary,$primary-other);
 }
 
 .venture-card:hover{
     transform:translateY(-10px);
-    box-shadow:0 25px 60px rgba(13,110,253,.18);
+    box-shadow:0 25px 60px rgba(46,128,173,.18);
 }
 
 .venture-logo{
@@ -52,9 +45,9 @@
     transition:.4s;
 }
 
-.venture-card:hover .venture-logo{
-    transform:rotate(-8deg) scale(1.08);
-}
+// .venture-card:hover .venture-logo{
+//     transform:rotate(-8deg) scale(1.08);
+// }
 
 .venture-logo img{
     max-width:100%;
@@ -85,6 +78,7 @@
     border-radius:50px;
     padding:.8rem 1.5rem;
     transition:.35s;
+    color:$white;
 }
 
 .venture-card:hover .btn{

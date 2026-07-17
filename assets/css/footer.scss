@@ -1,6 +1,7 @@
+@import 'variables';
 .footer {
-  background: #082b52;
-  color: rgba(255, 255, 255, .75);
+  background: $primary-main;
+  color:$white;
   padding: 5rem 0 2rem;
   position: relative;
 }
@@ -30,7 +31,7 @@
 }
 
 .footer h5 {
-  color: #fff;
+  color: $white;
   font-weight: 700;
   margin-bottom: 1.75rem;
   position: relative;
@@ -58,7 +59,7 @@
 }
 
 .footer-links a {
-  color: rgba(255,255,255,.75);
+  color: $white;
   text-decoration: none;
   transition: .3s;
 }

@@ -47,15 +47,14 @@
   bottom: 0;
   z-index: 2;
   padding: 2.5rem;
-  color: #fff;
+  color: $white;
   
 }
 
 
 .venture-tag {
   display: inline-block;
-  background: #fff;
-  color: #082b52;
+  background: $white;
   font-size: .85rem;
   font-weight: 700;
   padding: .75rem 1.5rem;

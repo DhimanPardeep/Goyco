@@ -1,20 +1,12 @@
+@import '_variables';
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
-$primary-color: #ef802f;
-$heading-font: 'Plus Jakarta Sans','Atkinson Hyperlegible', sans-serif;
-$body-font: 'Urbanist', sans-serif;
-$body-color:#232323;
-$link-active-color:#0000004d;
-body {
-  font-family: $body-font;
-  color: $body-color;
-  background: #f8fafc;
-}
-
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1030;
-  background: #ffffff;
+  background: $body-bg;
   box-shadow: 0 3px 20px rgba(15, 23, 42, 0.08);
 
   .navbar {
@@ -25,7 +17,6 @@ body {
     font-family: $heading-font;
     font-size: 1.75rem;
     font-weight: 700;
-    color: #1e293b;
     letter-spacing: 1px;
   }
 
@@ -35,8 +26,8 @@ body {
 
   .nav-link {
     font-family: $heading-font;
-    font-weight: 600;
-    font-size: 0.9375rem;
+    font-weight: $nav-link-font-weight;
+    font-size: 1rem;
     color: $body-color;
     padding: 0.75rem 1rem;
     transition: all 0.3s ease;
@@ -48,7 +39,7 @@ body {
   }
 
   .btn-login {
-    background: $primary-color;
+    background: $secondary;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -59,7 +50,7 @@ body {
 
     &:hover,
     &:focus {
-      background: #ef802f;
+      background: $secondary-hover;
       color: #fff;
     }
   }
@@ -79,7 +70,7 @@ body {
 
       &:hover {
         background: rgba(247, 119, 94, 0.1);
-        color: $primary-color;
+        color: $primary;
       }
     }
   }
@@ -117,7 +108,7 @@ body {
 
     &:hover,
     &.active {
-      color: $primary-color;
+      color: $primary;
     }
   }
 }

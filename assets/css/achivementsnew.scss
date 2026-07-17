@@ -1,5 +1,6 @@
+@import 'variables';
 .achievement-card{
-    background:#fff;
+    background:$white;
     border-radius:20px;
     padding:30px 20px;
     text-align:center;
@@ -17,12 +18,12 @@
     left:0;
     width:100%;
     height:5px;
-    background:linear-gradient(90deg,#084d8c,#0a5daa);
+    background:linear-gradient(90deg,$primary,$primary-other);
 }
 
 .achievement-card:hover{
     transform:translateY(-10px);
-    box-shadow:0 20px 45px rgba(13,110,253,.15);
+    box-shadow:0 20px 45px rgba(46,128,173,.18);
 }
 
 .achievement-card i{
@@ -57,7 +58,7 @@
 }
 
 .expertise-card:hover{
-    background:#0a5daa;
+    background:$primary;
     color:#fff;
     transform:translateY(-8px);
 }

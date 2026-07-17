@@ -1,3 +1,4 @@
+@import 'variables';
 .contact-section {
   background: #f8fafc;
 }
@@ -13,8 +14,8 @@
 .contact-info {
   background: linear-gradient(
     180deg,
-    #0d3b66,
-    #082b52
+    $primary-main,
+    $primary-secondary
   );
 
   color: #fff;

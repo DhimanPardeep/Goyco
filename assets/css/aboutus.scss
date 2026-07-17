@@ -1,3 +1,4 @@
+@import 'variables';
 body{
 background:#F6F9FC;
 font-family:Montserrat,sans-serif;
@@ -6,10 +7,11 @@ font-family:Montserrat,sans-serif;
 .about-hero{
 position:relative;
 background:url(../images/banner/1.jpg) center/cover ; 
-min-height:100vh;
+
 display:flex;
 align-items:center;
 overflow:hidden;
+height: 400px;
 }
 
 .hero-overlay{
@@ -17,7 +19,7 @@ position:absolute;
 inset:0;
 background:linear-gradient(120deg,
 rgba(7,60,115,.65),
-    rgba(10,93,170,.50));
+    rgba(10,93,170,.01));
 }
 
 .hero-badge{
@@ -31,11 +33,11 @@ letter-spacing:2px;
 }
 
 .about-hero span{
-color:#FF8A1F;
+color:$secondary;
 }
 
 .section-title{
-color:#FF8A1F;
+color:$secondary;
 font-weight:700;
 letter-spacing:2px;
 }
@@ -54,8 +56,8 @@ transform:scale(1.08);
 }
 
 .counter-card{
-padding:30px;
-background:#fff;
+padding:20px;
+background:$white;
 border-radius:20px;
 text-align:center;
 box-shadow:0 15px 40px rgba(0,0,0,.08);
@@ -64,7 +66,7 @@ transition:.4s;
 
 .counter-card:hover{
 transform:translateY(-10px);
-background:#0A5DAA;
+background:$primary;
 color:white;
 }
 
@@ -74,14 +76,14 @@ background:#eef6ff;
 
 .mission-card{
 background:white;
-padding:45px;
+padding:25px;
 border-radius:25px;
 transition:.5s;
 box-shadow:0 15px 35px rgba(0,0,0,.08);
 }
 
 .mission-card:hover{
-background:#0A5DAA;
+background:$primary;
 color:white;
 transform:translateY(-12px);
 }
@@ -90,13 +92,13 @@ transform:translateY(-12px);
 width:80px;
 height:80px;
 border-radius:50%;
-background:#FF8A1F;
+background:$secondary;
 display:flex;
 justify-content:center;
 align-items:center;
 font-size:32px;
 color:white;
-margin-bottom:25px;
+margin-bottom:0px;
 }
 
 .ceo-image{
@@ -118,7 +120,7 @@ transform:rotate(-5deg) scale(1.06);
 .ceo-note{
 background:white;
 padding:50px;
-border-left:6px solid #FF8A1F;
+border-left:6px solid $secondary;
 box-shadow:0 20px 50px rgba(0,0,0,.08);
 transition:.5s;
 }
@@ -129,7 +131,7 @@ transform:translateY(-10px);
 
 .department-card{
 background:white;
-padding:40px;
+padding:20px;
 text-align:center;
 border-radius:20px;
 transition:.4s;
@@ -138,13 +140,13 @@ box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 .department-card i{
 font-size:50px;
-color:#FF8A1F;
+color:$secondary;
 margin-bottom:20px;
 display:block;
 }
 
 .department-card:hover{
-background:#0A5DAA;
+background:$primary;
 color:white;
 transform:translateY(-10px);
 }
@@ -188,7 +190,7 @@ color:white;
 .section-tag{
 
     background:#eef5ff;
-    color:#0a5daa;
+    color:$primary;
     padding:.45rem 1rem;
     border-radius:50px;
     font-weight:600;
@@ -232,7 +234,7 @@ color:white;
 
     height:6px;
 
-    background:linear-gradient(90deg,#084d8c,#0a5daa);
+    background:linear-gradient(90deg,#084d8c,$primary);
 
 }
 
@@ -296,7 +298,7 @@ margin-top: 20px;
 
     display:inline-block;
 
-    color:#0a5daa;
+    color:$primary;
 
     font-size:14px;
 
@@ -346,7 +348,7 @@ margin-top: 20px;
 
     background:#f3f7ff;
 
-    color:#0a5daa;
+    color:$primary;
 
     transition:.35s;
 
@@ -354,7 +356,7 @@ margin-top: 20px;
 
 .team-social a:hover{
 
-    background:#0a5daa;
+    background:$primary;
 
     color:#fff;
 

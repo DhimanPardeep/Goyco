@@ -1,9 +1,12 @@
+@import 'variables';
 .contact-hero{
-min-height:100vh;
+height:400px;
 background:
-linear-gradient(rgba(7,60,115,.65),rgba(10,93,170,.50)),
-url(../images/banner/2.jpg) center/cover;
+linear-gradient(rgba(7,60,115,.65),rgba(10,93,170,.01)),
+url(../images/banner/2.jpg) center center / cover no-repeat;;
 position:relative;
+ object-fit: contain;
+
 }
 
 .badge-contact{
@@ -18,7 +21,7 @@ letter-spacing:2px;
 .contact-card{
 
 background:white;
-padding:45px 30px;
+padding:15px 5px;
 text-align:center;
 border-radius:20px;
 box-shadow:0 20px 45px rgba(0,0,0,.08);
@@ -38,7 +41,7 @@ display:block;
 .contact-card:hover{
 
 transform:translateY(-10px);
-background:#0A5DAA;
+background:$primary;
 color:white;
 
 }
@@ -68,7 +71,7 @@ border:1px solid #ddd;
 
 .form-control:focus{
 
-border-color:#0A5DAA;
+border-color:$primary;
 box-shadow:0 0 0 .2rem rgba(10,93,170,.15);
 
 }
@@ -86,7 +89,7 @@ box-shadow:0 20px 45px rgba(0,0,0,.08);
 .office-card{
 
 background:white;
-padding:40px;
+padding:10px;
 text-align:center;
 border-radius:20px;
 box-shadow:0 20px 40px rgba(0,0,0,.08);
@@ -98,14 +101,14 @@ height:100%;
 .office-card i{
 
 font-size:45px;
-color:#FF8A1F;
+color:$secondary;
 margin-bottom:20px;
 
 }
 
 .office-card:hover{
 
-background:#0A5DAA;
+background:$primary;
 color:white;
 transform:translateY(-10px);
 
@@ -120,7 +123,7 @@ color:white;
 .contact-footer{
 
 padding:100px 0;
-background:linear-gradient(135deg,#073C73,#0A5DAA);
+background:linear-gradient(135deg,$primary,$primary-other);
 color:white;
 
 }

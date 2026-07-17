@@ -1,24 +1,10 @@
-// ==========================
-// Variables
-// ==========================
-$primary: #184B70;
-$secondary: #ef802f;
-$text: #5b6472;
-$light: #f9f5f3;//#f8fbff;
-$white: #ffffff;
-
-$heading-font: 'Atkinson Hyperlegible', sans-serif;
-$body-font: 'Plus Jakarta Sans', sans-serif;
+@import 'variables';
 
 // ==========================
 // Hero Slider
 // ==========================
 .hero-slider {
-  background: linear-gradient(
-    135deg,
-    $light 0%,
-    $white 100%
-  );
+  
   overflow: hidden;
 
   .carousel-item {
@@ -107,7 +93,7 @@ $body-font: 'Plus Jakarta Sans', sans-serif;
   }
 
   .carousel-indicators {
-    bottom: 2rem;
+    bottom: 3rem;
 
     [data-bs-target] {
       width: 12px;
