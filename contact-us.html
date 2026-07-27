@@ -1,33 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Goyco Org</title>
-  <link rel="icon" type="image/png" sizes="200x200" href="assets/images/favicon.png">
-    
-    <!-- Compiled CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/slider.css">
-    <link rel="stylesheet" href="assets/css/toggler.css">
-    <link rel="stylesheet" href="assets/css/contactself.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/aboutus.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="200x200"
+      href="assets/images/favicon.png"
+    />
 
+    <!-- Compiled CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <link rel="stylesheet" href="assets/css/toggler.css" />
+    <link rel="stylesheet" href="assets/css/contactself.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/aboutus.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header class="site-header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="/">
+            <img class="goco-logo" src="assets/images/Goyco.png" alt="Goyco" />
+          </a>
 
-                <!-- Logo -->
-                <a class="navbar-brand" href="/">
-                    <img class="goco-logo" src="assets/images/Goyco.png" alt="Goyco" >
-                </a>
-
-                <!-- Mobile Menu Button -->
-                <!-- <button
+          <!-- Mobile Menu Button -->
+          <!-- <button
                     class="navbar-toggler border-0 shadow-none"
                     type="button"
                     data-bs-toggle="offcanvas"
@@ -35,587 +38,548 @@
                 >
                     <i class="bi bi-list"></i>
                 </button> -->
-<button
-  class="navbar-toggler custom-toggler border-0 shadow-none"
-  type="button"
-  data-bs-toggle="offcanvas"
-  data-bs-target="#mobileMenu"
-  aria-label="Toggle navigation"
->
-  <span></span>
-  <span></span>
-  <span></span>
-</button>
-                <!-- Desktop Menu -->
-                <div class="collapse navbar-collapse">
+          <button
+            class="navbar-toggler custom-toggler border-0 shadow-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <!-- Desktop Menu -->
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase" href="index.html">
+                  Home
+                </a>
+              </li>
 
-                    <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="about-us.html">
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-uppercase dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Ventures
+                </a>
 
-                        <li class="nav-item">
-                            <a class="nav-link active text-uppercase" href="index.html">
-                                Home
-                            </a>
-                        </li>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                      target="_blank"
+                    >
+                      Goyco Services
+                    </a>
+                  </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="about-us.html">
-                                About Us
-                            </a>
-                        </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link text-uppercase dropdown-toggle" href="#"
-                            data-bs-toggle="dropdown">
-                               Ventures
-                            </a>
-                            
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                      target="_blank"
+                    >
+                      Goyco Products
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li>
-                                    <a class="dropdown-item" href="https://dhimanpardeep.github.io/Goyco-Venture/" target="_blank">
-                                        Goyco Services
-                                    </a>
-                                </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="contact-us.html">
+                  Contact
+                </a>
+              </li>
 
-                                <li>
-                                    <a class="dropdown-item" href="https://dhimanpardeep.github.io/Goyco-Venture/"  target="_blank">
-                                        Goyco Products
-                                    </a>
-                                </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase"
+                  href="https://workyard.in/"
+                  target="_blank"
+                >
+                  Vacancy
+                </a>
+              </li>
 
-                                
-                            </ul>
-                        </li>
-                        
+              <!-- Login -->
+              <li class="nav-item dropdown ms-lg-4">
+                <button
+                  class="btn btn-login dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  Login
+                </button>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="contact-us.html">
-                                Contact
-                            </a>
-                        </li>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://workyard.in"
+                      target="_blank"
+                    >
+                      Client Login
+                    </a>
+                  </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="https://workyard.in/"  target="_blank">
-                                Vacancy
-                            </a>
-                        </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://workyard.in"
+                      target="_blank"
+                    >
+                      Employee Login
+                    </a>
+                  </li>
 
-                        <!-- Login -->
-                        <li class="nav-item dropdown ms-lg-4">
-                            <button
-                                class="btn btn-login dropdown-toggle"
-                                data-bs-toggle="dropdown"
-                            >
-                                Login
-                            </button>
-
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li>
-                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
-                                        Client Login
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
-                                        Employee Login
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a class="dropdown-item" href="https://workyard.in"  target="_blank">
-                                        Admin Login
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-        </nav>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://workyard.in"
+                      target="_blank"
+                    >
+                      Admin Login
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Mobile Offcanvas -->
-    <div
-        class="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="mobileMenu"
-    >
-        <div class="offcanvas-header">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+      <div class="offcanvas-header">
+        <a class="navbar-brand" href="/">
+          <img
+            class="goco-logo"
+            style="left: 0"
+            src="assets/images/Goyco.png"
+            alt="Goyco"
+          />
+        </a>
 
-            <a class="navbar-brand" href="/" >
-                    <img class="goco-logo" style="left:0" src="assets/images/Goyco.png" alt="Goyco">
-                </a>
-
-            <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-            ></button>
-
-        </div>
-
-        <div class="offcanvas-body">
-
-            <ul class="navbar-nav">
-
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">
-                        Home
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="about-us.html">
-                        About US
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle w-100" data-bs-toggle="dropdown" href="#">
-                        Ventures
-                    </a>
-                    
-
-                    <ul class="dropdown-menu w-100 mt-0 border-0">
-                        <li>
-                            <a class="dropdown-item" href="https://dhimanpardeep.github.io/Goyco-Venture/"  target="_blank">
-                                Goyco Services
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item" href="https://dhimanpardeep.github.io/Goyco-Venture/"  target="_blank">
-                                Goyco Products
-                            </a>
-                        </li>
-
-                        
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact-us.html">
-                        Contact
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="https://workyard.in"  target="_blank">
-                        Vacancy
-                    </a>
-                </li>
-
-                
-                <li class="dropdown nav-item">
-                    <a
-                        class="nav-link dropdown-toggle w-100"
-                        data-bs-toggle="dropdown" href="#">
-                        Login
-                </a>
-
-                    <ul class="dropdown-menu w-100 mt-0 border-0">
-                        <li>
-                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
-                                Client Login
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
-                                Employee Login
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="dropdown-item" href="https://workyard.in"  target="_blank">
-                                Admin Login
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-            </ul>
-
-        </div>
-    </div>
-       <section class="hero-slider">
-  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
-   
-
-    <div class="carousel-inner">
-    <!-- Slide 1 -->
-      <div class="carousel-item active">
-        
-        <img
-            src="assets/images/banner/3.jpg"
-            class="img-fluid hero-image w-100" style="height: 400px;"
-            alt="">
-            
-          <div class="carousel-item-content px-5">
-            <span class="hero-badge text-white">
-                    CONTACT US
-                </span>  
-            
-              <h1>
-                We would love to hear from u
-              </h1>
-
-              
-
-              
-            </div>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+        ></button>
       </div>
-      
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"> Home </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html"> About US </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle w-100"
+              data-bs-toggle="dropdown"
+              href="#"
+            >
+              Ventures
+            </a>
+
+            <ul class="dropdown-menu w-100 mt-0 border-0">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                  target="_blank"
+                >
+                  Goyco Services
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                  target="_blank"
+                >
+                  Goyco Products
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html"> Contact </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://workyard.in" target="_blank">
+              Vacancy
+            </a>
+          </li>
+
+          <li class="dropdown nav-item">
+            <a
+              class="nav-link dropdown-toggle w-100"
+              data-bs-toggle="dropdown"
+              href="#"
+            >
+              Login
+            </a>
+
+            <ul class="dropdown-menu w-100 mt-0 border-0">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://workyard.in"
+                  target="_blank"
+                >
+                  Client Login
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://workyard.in"
+                  target="_blank"
+                >
+                  Employee Login
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://workyard.in"
+                  target="_blank"
+                >
+                  Admin Login
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-
-  </div>
-</section>
-    
-<section class="py-5 bg-light">
-
-<div class="container">
-
-<div class="row g-4">
-
-<div class="col-md-6 col-lg-3">
-
-<div class="contact-card">
-
-<i class="bi bi-telephone-fill"></i>
-
-<h5>Call Us</h5>
-
-<p>+91 98765 43210</p>
-
-</div>
-
-</div>
-
-<div class="col-md-6 col-lg-3">
-
-<div class="contact-card">
-
-<i class="bi bi-envelope-fill"></i>
-
-<h5>Email</h5>
-
-<p>info@goyco.com</p>
-
-</div>
-
-</div>
-
-<div class="col-md-6 col-lg-3">
-
-<div class="contact-card">
-
-<i class="bi bi-geo-alt-fill"></i>
-
-<h5>Office</h5>
-
-<p>Mohali, Punjab</p>
-
-</div>
-
-</div>
-
-<div class="col-md-6 col-lg-3">
-
-<div class="contact-card">
-
-<i class="bi bi-clock-fill"></i>
-
-<h5>Business Hours</h5>
-
-<p>Mon - Fri<br>9:00 AM - 6:00 PM</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<section class="py-5">
-
-<div class="container">
-
-<div class="row g-5">
-
-<div class="col-lg-6">
-
-<div class="contact-form">
-
-<h2 class="fw-bold mb-4">
-
-Send Us A Query
-
-</h2>
-
-<form>
-
-<div class="mb-3">
-
-<input class="form-control" placeholder="Full Name">
-
-</div>
-
-<div class="mb-3">
-
-<input type="email" class="form-control" placeholder="Email Address">
-
-</div>
-
-<div class="mb-3">
-
-<input class="form-control" placeholder="Phone Number">
-
-</div>
-
-<div class="mb-3">
-
-<input class="form-control" placeholder="Subject">
-
-</div>
-
-<div class="mb-3">
-
-<textarea rows="5" class="form-control" placeholder="Your Message"></textarea>
-
-</div>
-
-<button class="btn btn-primary btn-lg px-5 text-white">
-
-Send Message
-
-</button>
-
-</form>
-
-</div>
-
-</div>
-
-<div class="col-lg-6">
-
-<div class="map-box">
-
-<iframe
-src="https://www.google.com/maps?q=Mohali,Punjab&output=embed"
-width="100%"
-height="100%"
-style="border:0"
-loading="lazy">
-</iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<section class="py-5 bg-light">
-
-<div class="container">
-
-<div class="text-center mb-5">
-
-<h2 class="fw-bold">
-
-Our Offices
-
-</h2>
-
-</div>
-
-<div class="row g-4">
-
-<div class="col-lg-4">
-
-<div class="office-card">
-
-<i class="bi bi-building"></i>
-
-<h4>Head Office</h4>
-
-<p>
-
-Sector 74,<br>
-
-Mohali, Punjab
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="office-card">
-
-<i class="bi bi-building"></i>
-
-<h4>Branch Office</h4>
-
-<p>
-
-New Delhi,<br>
-
-India
-
-</p>
-
-</div>
-
-</div>
-
-<div class="col-lg-4">
-
-<div class="office-card">
-
-<i class="bi bi-building"></i>
-
-<h4>International</h4>
-
-<p>
-
-Dubai,<br>
-
-United Arab Emirates
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
+    <section class="hero-slider">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img
+              src="assets/images/banner/3.jpg"
+              class="img-fluid hero-image w-100"
+              style="height: 400px"
+              alt=""
+            />
+
+            <div class="carousel-item-content px-5">
+              <span class="hero-badge text-white"> CONTACT US </span>
+
+              <h1>We would love to hear from u</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card">
+              <i class="bi bi-telephone-fill"></i>
+
+              <h5>Call Us</h5>
+
+              <p>+91-9115758151</p>
+              <p>+91-7347359109</p>
+              <p><i class="bi bi-whatsapp"></i> +91-9115758151</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card">
+              <i class="bi bi-envelope-fill"></i>
+
+              <h5>Email</h5>
+
+              <p>hemant@goyco.org</p>
+              <p>cc: query@goyco.org</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card">
+              <i class="bi bi-geo-alt-fill"></i>
+
+              <h5>Office</h5>
+
+              <p>Chandigarh (India)</p>
+              <p>
+                H.O Plot No, Business & Indrustrial Park, Phase-2, Chandigarh
+                (160002), India.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card">
+              <i class="bi bi-clock-fill"></i>
+
+              <h5>Business Hours</h5>
+
+              <p>Mon - Fri<br />8:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="contact-form">
+              <h2 class="fw-bold mb-4">Send Us A Query</h2>
+
+              <form>
+                <div class="mb-3">
+                  <input class="form-control" placeholder="Full Name" />
+                </div>
+
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <input class="form-control" placeholder="Phone Number" />
+                </div>
+
+                <div class="mb-3">
+                  <input class="form-control" placeholder="Subject" />
+                </div>
+
+                <div class="mb-3">
+                  <textarea
+                    rows="5"
+                    class="form-control"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+
+                <button class="btn btn-primary btn-lg px-5 text-white">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="map-box">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.7111819352886!2d76.78222387466003!3d30.69840128729262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed1ba84db601%3A0x7af2e285d29ae53a!2sWorkYard%20Coworking%20Space%20Chandigarh!5e0!3m2!1sen!2sin!4v1722591476550!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Our Offices</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="office-card">
+              <i class="bi bi-building"></i>
+
+              <h4>Head Office</h4>
+
+              <p>
+                Sector 74,<br />
+
+                Mohali, Punjab
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="office-card">
+              <i class="bi bi-building"></i>
+
+              <h4>Branch Office</h4>
+
+              <p>
+                New Delhi,<br />
+
+                India
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="office-card">
+              <i class="bi bi-building"></i>
+
+              <h4>International</h4>
+
+              <p>
+                Dubai,<br />
+
+                United Arab Emirates
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
     <!--Footer-->
-<footer class="footer">
+    <footer class="footer">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- Company -->
+          <div class="col-lg-4 col-md-6">
+            <img
+              src="assets/images/Goyco.png"
+              alt="GOYCO"
+              class="my-0 goco-footer-logo"
+            />
 
-  <div class="container">
+            <p class="footer-desc mt-5 pt-3">
+              We at Goyco are trying to build unique solutions for India. We are
+              making different unique solutions in different categories in
+              India"
+            </p>
 
-    <div class="row gy-5">
+            <div class="footer-social">
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-geo-alt"></i></a>
+            </div>
+          </div>
 
-      <!-- Company -->
-      <div class="col-lg-4 col-md-6">
-        <img
-          src="assets/images/Goyco.png"
-          alt="GOYCO"
-          class="my-0 goco-footer-logo">
+          <!-- Links -->
+          <div class="col-lg-2 col-md-6">
+            <h5>Quick Links</h5>
 
-        <p class="footer-desc mt-5 pt-3">
-          GOYCO delivers innovative technology solutions,
-          digital transformation, and enterprise consulting
-          services for modern businesses.
-        </p>
+            <ul class="footer-links">
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li>
+                <a href="https://www.workyard.in" target="_blank">Vacancy</a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="footer-social">
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
-          <a href="#"><i class="bi bi-twitter-x"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
+          <!-- Services -->
+          <div class="col-lg-3 col-md-6">
+            <h5>Solutions</h5>
+
+            <ul class="footer-links">
+              <li>
+                <a href="https://www.workyard.in" target="_blank">GSPL</a>
+              </li>
+              <li>
+                <a href="https://www.workyard.in" target="_blank">GBSPL</a>
+              </li>
+              <li>
+                <a href="https://www.workyard.in" target="_blank">WorkYard</a>
+              </li>
+              <li>
+                <a href="https://www.workyard.in" target="_blank">Golphoen</a>
+              </li>
+              <li>
+                <a href="https://www.workyard.in" target="_blank">NeevSpaces</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-lg-3 col-md-6">
+            <h5>Contact Us</h5>
+
+            <div class="footer-contact">
+              <p>
+                <i class="bi bi-geo-alt"></i>
+                Chandigarh (India)
+              </p>
+              <p>
+                <i class="bi bi-building"></i>H.O Plot No, Business &
+                Indrustrial Park, Phase-2, Chandigarh (160002), India.
+              </p>
+
+              <ul class="list-unstyled m-0 p-0">
+                <li><i class="bi bi-telephone me-2"></i> +91-9115758151</li>
+                <li class="ps-4 ms-1">+91-7347359109</li>
+              </ul>
+
+              <ul class="list-unstyled mt-3">
+                <li><i class="bi bi-envelope me-3"></i>hemant@goyco.org</li>
+                <li class="ps-4 ms-2">cc: query@goyco.org</li>
+              </ul>
+
+              <p>
+                <i class="bi bi-whatsapp"></i>
+                +91-9115758151
+              </p>
+            </div>
+
+            <!-- <form class="newsletter">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+              />
+
+              <button class="btn">Subscribe</button>
+            </form> -->
+          </div>
+        </div>
+
+        <!-- <hr /> -->
+
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center"
+        >
+          <p>© 2026 GOYCO. All Rights Reserved.</p>
+
+          <div>
+            <a href="#">Privacy Policy</a>
+            <span>|</span>
+            <a href="#">Terms & Conditions</a>
+          </div>
         </div>
       </div>
-
-      <!-- Links -->
-      <div class="col-lg-2 col-md-6">
-        <h5>Quick Links</h5>
-
-        <ul class="footer-links">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Ventures</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
-      </div>
-
-      <!-- Services -->
-      <div class="col-lg-3 col-md-6">
-        <h5>Solutions</h5>
-
-        <ul class="footer-links">
-          <li><a href="#">Web Development</a></li>
-          <li><a href="#">Mobile Apps</a></li>
-          <li><a href="#">Cloud Solutions</a></li>
-          <li><a href="#">Consulting</a></li>
-          <li><a href="#">Digital Transformation</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact -->
-      <div class="col-lg-3 col-md-6">
-        <h5>Contact Us</h5>
-
-        <div class="footer-contact">
-          <p>
-            <i class="bi bi-telephone"></i>
-            +91 12345 67890
-          </p>
-
-          <p>
-            <i class="bi bi-envelope"></i>
-            hello@goyco.com
-          </p>
-
-          <p>
-            <i class="bi bi-geo-alt"></i>
-            Chandigarh, India
-          </p>
-        </div>
-
-        <form class="newsletter">
-          <input
-            type="email"
-            class="form-control"
-            placeholder="Your Email">
-
-          <button class="btn">
-            Subscribe
-          </button>
-        </form>
-      </div>
-
-    </div>
-
-    <hr>
-
-    <div
-      class="footer-bottom d-flex
-      flex-column flex-md-row
-      justify-content-between
-      align-items-center">
-
-      <p>
-        © 2026 GOYCO. All Rights Reserved.
-      </p>
-
-      <div>
-        <a href="#">Privacy Policy</a>
-        <span>|</span>
-        <a href="#">Terms & Conditions</a>
-      </div>
-
-    </div>
-
-  </div>
-
-</footer>
+    </footer>
     <!-- Bootstrap JS -->
- <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
