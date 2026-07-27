@@ -1,7 +1,5 @@
-@import 'variables';
+@import "variables";
 .solutions-section {
-
-
   .section-tag {
     display: inline-block;
     padding: 0.625rem 1.25rem;
@@ -9,12 +7,10 @@
     background: rgba($secondary, 0.1);
     color: $secondary;
     font-weight: 600;
-    font-family: $body-font;
     margin-bottom: 1rem;
   }
 
   .section-title {
-    font-family: $heading-font;
     font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 700;
     color: $primary;
@@ -22,7 +18,7 @@
 }
 
 .solution-card {
-    background: white;
+  background: white;
   border-radius: 5px;
   padding: 2.5rem 2rem;
   text-align: center;
@@ -32,17 +28,17 @@
   position: relative;
   overflow: hidden;
 
-//   &::before {
-//     content: '';
-//     position: absolute;
-//     top: -120px;
-//     right: -120px;
-//     width: 220px;
-//     height: 220px;
-//     border-radius: 50%;
-//     background: rgba($secondary, 0.05);
-//     transition: all 0.4s ease;
-//   }
+  //   &::before {
+  //     content: '';
+  //     position: absolute;
+  //     top: -120px;
+  //     right: -120px;
+  //     width: 220px;
+  //     height: 220px;
+  //     border-radius: 50%;
+  //     background: rgba($secondary, 0.05);
+  //     transition: all 0.4s ease;
+  //   }
 
   .solution-image {
     width: 150px;
@@ -61,13 +57,11 @@
   }
 
   h4 {
-    font-family: $heading-font;
     font-weight: 700;
     margin-bottom: 1rem;
   }
 
   p {
-    font-family: $body-font;
     line-height: 1.8;
     margin-bottom: 0;
   }
@@ -86,32 +80,32 @@
   }
 }
 .btn-visit {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: rgba($white, 1);
-    color: $body-color;
-    border-radius: 5px;
-    padding: 0.55rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba($white, 1);
+  color: $body-color;
+  border-radius: 5px;
+  padding: 0.55rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  i {
     font-size: 0.875rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.3s ease;
-
-    i {
-      font-size: 0.875rem;
-      transition: transform 0.3s ease;
-    }
-
-    // &:hover {
-    //   background: $secondary;
-    //   color: #fff;
-
-    //   i {
-    //     transform: translate(3px, -3px);
-    //   }
-    // }
+    transition: transform 0.3s ease;
   }
+
+  // &:hover {
+  //   background: $secondary;
+  //   color: #fff;
+
+  //   i {
+  //     transform: translate(3px, -3px);
+  //   }
+  // }
+}
 .btn-visit {
   opacity: 1;
   transform: translateY(10px);

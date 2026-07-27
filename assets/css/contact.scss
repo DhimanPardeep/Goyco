@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 .contact-section {
   background: #f8fafc;
 }
@@ -7,16 +7,12 @@
   background: #fff;
   border-radius: 2rem;
   overflow: hidden;
-  box-shadow: 0 25px 80px rgba(0, 0, 0, .08);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.08);
 }
 
 /* LEFT SIDE */
 .contact-info {
-  background: linear-gradient(
-    180deg,
-    $primary-main,
-    $primary-secondary
-  );
+  background: linear-gradient(180deg, $primary-main, $primary-secondary);
 
   color: #fff;
   padding: 3rem;
@@ -35,7 +31,7 @@
 }
 
 .section-heading p {
-  opacity: .8;
+  opacity: 0.8;
   margin-bottom: 2.5rem;
 }
 
@@ -49,7 +45,7 @@
   width: 55px;
   height: 55px;
   border-radius: 1rem;
-  background: rgba(255,255,255,.12);
+  background: rgba(255, 255, 255, 0.12);
 
   display: flex;
   align-items: center;
@@ -65,8 +61,8 @@
 }
 
 .office-card p {
-  opacity: .85;
-  margin-bottom: .5rem;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
 }
 
 .office-card a {
@@ -112,7 +108,7 @@ textarea.form-control {
 
 .form-control:focus {
   border-color: #f7941d;
-  box-shadow: 0 0 0 .25rem rgba(247,148,29,.15);
+  box-shadow: 0 0 0 0.25rem rgba(247, 148, 29, 0.15);
 }
 
 .btn-goco {

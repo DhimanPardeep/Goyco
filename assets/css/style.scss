@@ -1,4 +1,4 @@
-@import '_variables';
+@import "_variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 @import "../bootstrap-icons/font/bootstrap-icons.min.css";
@@ -14,7 +14,6 @@
   }
 
   .navbar-brand {
-    font-family: $heading-font;
     font-size: 1.75rem;
     font-weight: 700;
     letter-spacing: 1px;
@@ -25,7 +24,6 @@
   }
 
   .nav-link {
-    font-family: $heading-font;
     font-weight: $nav-link-font-weight;
     font-size: 1rem;
     color: $body-color;
@@ -44,7 +42,6 @@
     border-radius: 5px;
     color: #fff;
     padding: 0.5rem 1rem;
-    font-family: $heading-font;
     font-weight: 600;
     transition: all 0.3s ease;
 
@@ -65,7 +62,6 @@
     .dropdown-item {
       border-radius: 12px;
       padding: 0.75rem 1rem;
-      font-family: $body-font;
       font-weight: 500;
 
       &:hover {
@@ -94,13 +90,11 @@
   width: 300px;
 
   .offcanvas-title {
-    font-family: $heading-font;
     font-weight: 700;
     font-size: 1.5rem;
   }
 
   .nav-link {
-    font-family: $heading-font;
     font-weight: 600;
     font-size: 1rem;
     color: #334155;
@@ -117,7 +111,6 @@
   padding: 120px 0;
 
   h1 {
-    font-family: $heading-font;
     font-weight: 700;
     margin-bottom: 1rem;
     color: #1e293b;

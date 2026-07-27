@@ -126,6 +126,97 @@
   font-weight: 900;
   src: url("../fonts/mulish/mulish-v18-latin-900italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Medium.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Black.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Bold.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Bold Italic.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Extrablack.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Extrabold.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Extralight.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Light.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Regular.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Regular Italic.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Semibold.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Semibold Italic.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Zoho Puvi";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../../fonts/Zoho_Puvi/Zoho_Puvi/OpenType-TT/Zoho Puvi Thin.ttf") format("ttf");
+}
 .contact-hero {
   height: 400px;
   background: linear-gradient(rgba(7, 60, 115, 0.65), rgba(10, 93, 170, 0.01)), url(../images/banner/2.jpg) center center/cover no-repeat;
@@ -135,7 +226,7 @@
 }
 
 .badge-contact {
-  background: #FF8A1F;
+  background: #ff8a1f;
   padding: 10px 25px;
   border-radius: 40px;
   color: white;
@@ -155,7 +246,7 @@
 
 .contact-card i {
   font-size: 45px;
-  color: #FF8A1F;
+  color: #ff8a1f;
   margin-bottom: 20px;
   display: block;
 }
