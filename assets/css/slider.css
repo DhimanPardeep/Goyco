@@ -255,6 +255,9 @@
   margin-bottom: 2rem;
   max-width: 550px;
 }
+.hero-slider .hero-image {
+  height: 80vh;
+}
 .hero-slider .hero-image img {
   max-width: 100%;
   max-height: 500px;
@@ -286,9 +289,6 @@
   background: #2e80ad;
   color: #ffffff;
   transform: translateY(-2px);
-}
-.hero-slider .carousel-indicators {
-  bottom: 3rem;
 }
 .hero-slider .carousel-indicators [data-bs-target] {
   width: 12px;
@@ -339,7 +339,7 @@
     margin-right: auto;
   }
   .hero-image {
-    height: 100vh;
+    height: 80vh;
   }
 }
 .goco-logo {
