@@ -9,6 +9,7 @@
   .carousel-item {
     min-height: 80vh;
     // max-height: 60vh;
+    align-items: center;
   }
   .carousel-item-content {
     position: absolute;
@@ -17,9 +18,7 @@
   }
   .hero-content {
     padding: 0rem 0;
-
     .hero-tag {
-      display: inline-block;
       padding: 0.625rem 1.25rem;
       border-radius: 50px;
       background: rgba($secondary, 0.1);

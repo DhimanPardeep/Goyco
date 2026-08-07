@@ -230,14 +230,13 @@
 
 /* LEFT SIDE */
 .contact-info {
-  background: url(/assets/images/contact.jfif);
-  color: #ff8a24;
+  color: #ffffff;
   padding: 3rem;
   height: 100%;
 }
 
 .section-heading span {
-  color: #f7941d;
+  color: #ffffff;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -267,7 +266,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
-  color: #f7941d;
+  color: #ffffff;
   flex-shrink: 0;
 }
 

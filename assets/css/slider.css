@@ -222,6 +222,7 @@
 }
 .hero-slider .carousel-item {
   min-height: 80vh;
+  align-items: center;
 }
 .hero-slider .carousel-item-content {
   position: absolute;
@@ -232,7 +233,6 @@
   padding: 0rem 0;
 }
 .hero-slider .hero-content .hero-tag {
-  display: inline-block;
   padding: 0.625rem 1.25rem;
   border-radius: 50px;
   background: rgba(255, 138, 36, 0.1);
