@@ -10,10 +10,11 @@
     min-height: 80vh;
     // max-height: 60vh;
     align-items: center;
+    position: relative;
   }
   .carousel-item-content {
     position: absolute;
-    top: 100px;
+    top: 20px;
     color: white;
   }
   .hero-content {

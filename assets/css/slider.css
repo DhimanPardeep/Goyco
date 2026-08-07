@@ -223,10 +223,11 @@
 .hero-slider .carousel-item {
   min-height: 80vh;
   align-items: center;
+  position: relative;
 }
 .hero-slider .carousel-item-content {
   position: absolute;
-  top: 100px;
+  top: 20px;
   color: white;
 }
 .hero-slider .hero-content {
