@@ -12,9 +12,9 @@
 
 /* LEFT SIDE */
 .contact-info {
-  background: linear-gradient(180deg, $primary-main, $primary-secondary);
+  background: url(/assets/images/contact.jfif);
 
-  color: #fff;
+  color: $secondary;
   padding: 3rem;
   height: 100%;
 }
