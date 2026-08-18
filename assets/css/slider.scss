@@ -14,7 +14,7 @@
   }
   .carousel-item-content {
     position: absolute;
-    top: 20px;
+    top: 29%;
     color: white;
   }
   .hero-content {
@@ -126,15 +126,15 @@
 @media (max-width: 776px) {
   .carousel-item-content {
     position: absolute;
-    top: 10px;
+    top: 27%;
   }
 }
 @media (max-width: 991.98px) {
   .hero-slider {
-    text-align: center;
+    text-align: left;
     .carousel-item-content {
       position: absolute;
-      top: 10px;
+      top: 27%;
     }
     .carousel-item {
       min-height: auto;
