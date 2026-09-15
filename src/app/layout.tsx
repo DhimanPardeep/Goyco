@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BootstrapClient from "./components/BootstrapClient";
 import type { Metadata } from "next";
-
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const metadata: Metadata = {
   title: {
     default: "Goyco Org",
@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   },
   description: "Goyco Org",
   icons: {
-    icon: "/images/favicon.png",
-    shortcut: "/images/favicon.png",
-    apple: "/images/favicon.png",
+    icon: `${basePath}/images/favicon.png`,
+    shortcut: `${basePath}/images/favicon.png`,
+    apple: `${basePath}/images/favicon.png`,
   },
 };
 
