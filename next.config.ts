@@ -1,12 +1,14 @@
 import type { NextConfig } from "next";
 
+const basePath = "/Goyco";
 const nextConfig: NextConfig = {
   output: "export",
-  images: {
-    unoptimized: true, // required for static export
+  images: { unoptimized: true },
+  basePath: basePath,
+  assetPrefix: `${basePath}/`,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
-  basePath: "/Goyco", // only needed for project pages, see note below
-  assetPrefix: "/Goyco/", // only needed for project pages
 };
 
 export default nextConfig;

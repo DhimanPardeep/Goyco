@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Navbar() {
   return (
     <>
@@ -9,7 +10,7 @@ export default function Navbar() {
             <Link className="navbar-brand" href="/">
               <Image
                 className="goco-logo"
-                src="/images/Goyco.png"
+                src={`${basePath}/images/Goyco.png`}
                 alt="Goyco"
                 height={120}
                 width={180}
