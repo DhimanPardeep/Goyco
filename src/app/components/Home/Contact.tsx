@@ -1,4 +1,5 @@
 "use client";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 import { FormEvent, useState } from "react";
 
 export default function ZohoContactForm() {
@@ -88,7 +89,7 @@ export default function ZohoContactForm() {
             <div
               className="col-lg-5"
               style={{
-                backgroundImage: "url(/images/banner/common.jpg)",
+                backgroundImage: `url(${basePath}/images/banner/common.jpg)`,
                 position: "relative",
               }}
             >
