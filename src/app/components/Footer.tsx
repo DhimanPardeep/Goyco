@@ -82,12 +82,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.workyard.in" target="_blank">
+                <a href="https://golphoen.com" target="_blank">
                   Golphoen
                 </a>
               </li>
               <li>
-                <a href="https://www.workyard.in" target="_blank">
+                <a href="https://neevspaces.com/" target="_blank">
                   NeevSpaces
                 </a>
               </li>
