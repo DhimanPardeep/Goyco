@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Slider from "../components/Home/Slider";
+import ContactFrom from "./contactForm";
 export const metadata: Metadata = {
   title: "Contact",
 };
@@ -70,52 +71,7 @@ export default function Contact() {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6">
-              <div className="contact-form-self">
-                <h2 className="fw-bold mb-4">Send Us A Query</h2>
-
-                <form>
-                  <div className="mb-3">
-                    <input
-                      className="form-control form-control-self"
-                      placeholder="Full Name"
-                    />
-                  </div>
-
-                  <div className="mb-3">
-                    <input
-                      type="email"
-                      className="form-control form-control-self"
-                      placeholder="Email Address"
-                    />
-                  </div>
-
-                  <div className="mb-3">
-                    <input
-                      className="form-control form-control-self"
-                      placeholder="Phone Number"
-                    />
-                  </div>
-
-                  <div className="mb-3">
-                    <input
-                      className="form-control form-control-self"
-                      placeholder="Subject"
-                    />
-                  </div>
-
-                  <div className="mb-3">
-                    <textarea
-                      rows={5}
-                      className="form-control form-control-self"
-                      placeholder="Your Message"
-                    ></textarea>
-                  </div>
-
-                  <button className="btn btn-primary btn-lg px-5 text-white">
-                    Send Message
-                  </button>
-                </form>
-              </div>
+              <ContactFrom></ContactFrom>
             </div>
 
             <div className="col-lg-6">
