@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Slider() {
   return (
     <section className="hero-slider">
@@ -32,7 +33,7 @@ export default function Slider() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <Image
-              src="/images/banner/Goyco-1.jpg.jpeg"
+              src={`${basePath}/images/banner/Goyco-1.jpg.jpeg`}
               className="img-fluid hero-image w-100"
               style={{ objectFit: "cover" }}
               fill
@@ -61,7 +62,7 @@ export default function Slider() {
           {/* Slide 2  */}
           <div className="carousel-item">
             <Image
-              src="/images/banner/Goyco-2.jpg.jpeg"
+              src={`${basePath}/images/banner/Goyco-2.jpg.jpeg`}
               className="img-fluid hero-image w-100"
               style={{ objectFit: "cover" }}
               fill
@@ -91,7 +92,7 @@ export default function Slider() {
 
           <div className="carousel-item">
             <Image
-              src="/images/banner/Goyco-3.jpg.jpeg"
+              src={`${basePath}/images/banner/Goyco-3.jpg.jpeg`}
               className="img-fluid hero-image w-100"
               style={{ objectFit: "cover" }}
               alt=""

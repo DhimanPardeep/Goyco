@@ -1,4 +1,5 @@
 import Image from "next/image";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Ventures() {
   return (
     <section className="py-3">
@@ -12,7 +13,7 @@ export default function Ventures() {
             <div className="venture-card h-100">
               <div className="venture-logo">
                 <Image
-                  src="/images/Goyco1.png"
+                  src={`${basePath}/images/Goyco1.png`}
                   className="img-fluid"
                   alt=""
                   width={200}
@@ -42,7 +43,7 @@ export default function Ventures() {
             <div className="venture-card h-100">
               <div className="venture-logo">
                 <Image
-                  src="/images/Goyco1.png"
+                  src={`${basePath}/images/Goyco1.png`}
                   className="img-fluid"
                   width={200}
                   height={120}

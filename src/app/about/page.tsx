@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Slider from "../components/Home/Slider";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const metadata: Metadata = {
   title: "About",
 };
@@ -15,7 +16,7 @@ export default function About() {
             <div className="col-lg-6">
               <div className="about-image">
                 <img
-                  src="/images/banner/Goyco-1.jpg.jpeg"
+                  src={`${basePath}/images/banner/Goyco-1.jpg.jpeg`}
                   className="img-fluid rounded-4"
                   alt=""
                 />
@@ -133,7 +134,7 @@ export default function About() {
                   <Image
                     height={90}
                     width={90}
-                    src="/images/ceo.jpg"
+                    src={`${basePath}/images/ceo.jpg`}
                     alt=""
                   ></Image>
                 </div>
@@ -165,7 +166,7 @@ export default function About() {
                   <Image
                     height={90}
                     width={90}
-                    src="/images/ceo.jpg"
+                    src={`${basePath}/images/ceo.jpg`}
                     alt=""
                   ></Image>
                 </div>

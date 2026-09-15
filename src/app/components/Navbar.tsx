@@ -141,7 +141,7 @@ export default function Navbar() {
             <Image
               className="goco-logo"
               style={{ left: 0 }}
-              src="/images/Goyco.png"
+              src={`${basePath}/images/Goyco.png`}
               height={120}
               width={200}
               alt="Goyco"

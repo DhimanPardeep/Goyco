@@ -1,4 +1,5 @@
 import Image from "next/image";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Solutions() {
   return (
     <section className="solutions-section py-5">
@@ -12,7 +13,7 @@ export default function Solutions() {
             <div className="solution-card">
               <div className="solution-image">
                 <Image
-                  src="/images/ventture.png"
+                  src={`${basePath}/images/ventture.png`}
                   className="img-fluid"
                   alt=""
                   height={150}
@@ -38,7 +39,7 @@ export default function Solutions() {
             <div className="solution-card">
               <div className="solution-image">
                 <Image
-                  src="/images/NEEVSPACESLOGO.jpeg"
+                  src={`${basePath}/images/NEEVSPACESLOGO.jpeg`}
                   className="img-fluid"
                   alt=""
                   height={150}
@@ -64,7 +65,7 @@ export default function Solutions() {
             <div className="solution-card">
               <div className="solution-image">
                 <Image
-                  src="/images/ventture.png"
+                  src={`${basePath}/images/ventture.png`}
                   className="img-fluid"
                   alt=""
                   height={150}
@@ -93,7 +94,7 @@ export default function Solutions() {
             <div className="solution-card">
               <div className="solution-image">
                 <Image
-                  src="/images/ventture.png"
+                  src={`${basePath}/images/ventture.png`}
                   className="img-fluid"
                   alt=""
                   height={150}

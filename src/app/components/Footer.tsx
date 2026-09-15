@@ -1,4 +1,5 @@
 import Image from "next/image";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -7,7 +8,7 @@ export default function Footer() {
           <div className="col-lg-4 col-md-6">
             <div className="venture-logo">
               <Image
-                src="/images/Goyco1.png"
+                src={`${basePath}/images/Goyco1.png`}
                 className="img-fluid"
                 height={120}
                 width={200}

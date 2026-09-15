@@ -1,4 +1,5 @@
 import Image from "next/image";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Testimonials() {
   return (
     <section className="clients py-5">
@@ -12,7 +13,7 @@ export default function Testimonials() {
           <div className="clients-track">
             <div className="client-card">
               <Image
-                src="/images/1.jpg"
+                src={`${basePath}/images/1.jpg`}
                 className="client-img"
                 alt="Client"
                 height={90}
@@ -40,7 +41,7 @@ export default function Testimonials() {
 
             <div className="client-card">
               <Image
-                src="/images/2.jpg"
+                src={`${basePath}/images/2.jpg`}
                 className="client-img"
                 alt="Client"
                 height={90}
@@ -66,7 +67,7 @@ export default function Testimonials() {
             </div>
             <div className="client-card">
               <Image
-                src="/images/2.jpg"
+                src={`${basePath}/images/2.jpg`}
                 className="client-img"
                 alt="Client"
                 height={90}
@@ -92,7 +93,7 @@ export default function Testimonials() {
             </div>
             <div className="client-card">
               <Image
-                src="/images/2.jpg"
+                src={`${basePath}/images/2.jpg`}
                 className="client-img"
                 alt="Client"
                 height={90}
