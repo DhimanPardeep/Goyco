@@ -76,7 +76,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                        href="https://dhimanpardeep.github.io/Goyco-Services/"
                         target="_blank"
                       >
                         Goyco Services
@@ -86,7 +86,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         className="dropdown-item"
-                        href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                        href="https://dhimanpardeep.github.io/Goyco-Business-Solutions/"
                         target="_blank"
                       >
                         Goyco Products
@@ -211,7 +211,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                    href="https://dhimanpardeep.github.io/Goyco-Services/"
                     target="_blank"
                   >
                     Goyco Services
@@ -221,7 +221,7 @@ export default function Navbar() {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://dhimanpardeep.github.io/Goyco-Venture/"
+                    href="https://dhimanpardeep.github.io/Goyco-Business-Solutions/"
                     target="_blank"
                   >
                     Goyco Products
