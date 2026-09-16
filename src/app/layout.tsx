@@ -6,10 +6,10 @@ import type { Metadata } from "next";
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const metadata: Metadata = {
   title: {
-    default: "Goyco Org",
-    template: "%s | Goyco Org",
+    default: "Goyco Pvt. Ltd.",
+    template: "%s | Goyco Pvt. Ltd.",
   },
-  description: "Goyco Org",
+  description: "Goyco Pvt. Ltd.",
   icons: {
     icon: `${basePath}/images/favicon.png`,
     shortcut: `${basePath}/images/favicon.png`,
