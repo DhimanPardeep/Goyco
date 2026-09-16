@@ -1,7 +1,10 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export default function Navbar() {
+  const pathname = usePathname();
   return (
     <>
       <header className="site-header">
@@ -32,20 +35,38 @@ export default function Navbar() {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav ms-auto align-items-lg-center">
                 <li className="nav-item">
-                  <Link className="nav-link active text-uppercase" href="/">
+                  <Link
+                    className={
+                      pathname === "/"
+                        ? "nav-link active text-uppercase"
+                        : "nav-link text-uppercase"
+                    }
+                    href="/"
+                  >
                     Home
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link text-uppercase" href="/about">
+                  <Link
+                    className={
+                      pathname === "/about"
+                        ? "nav-link active text-uppercase"
+                        : "nav-link text-uppercase"
+                    }
+                    href="/about"
+                  >
                     About Us
                   </Link>
                 </li>
                 <li className="nav-item dropdown">
                   <Link
-                    className="nav-link text-uppercase dropdown-toggle"
-                    href="#"
+                    className={
+                      pathname === "#Solutions"
+                        ? "nav-link active text-uppercase dropdown-toggle"
+                        : "nav-link text-uppercase dropdown-toggle"
+                    }
+                    href="#Solutions"
                     data-bs-toggle="dropdown"
                   >
                     Ventures
@@ -75,7 +96,14 @@ export default function Navbar() {
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link text-uppercase" href="/contact">
+                  <Link
+                    className={
+                      pathname === "/contact"
+                        ? "nav-link active text-uppercase"
+                        : "nav-link text-uppercase"
+                    }
+                    href="/contact"
+                  >
                     Contact
                   </Link>
                 </li>
