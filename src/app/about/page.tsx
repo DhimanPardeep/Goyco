@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Slider from "../components/Home/Slider";
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const metadata: Metadata = {
@@ -12,12 +11,12 @@ export default function About() {
 
       <section className="py-5 bg-white">
         <div className="container">
-          <div className="row align-items-center g-5">
+          <div className="row align-items-center g-5  align-items-stretch">
             <div className="col-lg-6">
-              <div className="about-image">
+              <div className="about-image mt-5">
                 <img
-                  src={`${basePath}/images/banner/Goyco-1.jpg.jpeg`}
-                  className="img-fluid rounded-4"
+                  src={`${basePath}/images/about/Goyco.JPG`}
+                  className="img-fluid rounded-4 "
                   alt=""
                 />
               </div>
@@ -26,39 +25,41 @@ export default function About() {
             <div className="col-lg-6">
               <span className="section-title"> ABOUT US </span>
 
-              <h2 className="fw-bold mb-4">
-                SHORT BRIEFING OF WORKYARD CO-WORKING SPACES
-              </h2>
-
               <p>
-                WorkYard Coworking Spaces are Pocket Friendly Coworking Spaces
-                focusing on providing the Value for Money experience. WorkYard
-                Coworking Spaces were founded by our Founder i.e. Mr Hemant
-                Goyal in 2019.
-              </p>
-
-              <p>
-                WorkYard currently has 2 Premises operational, first one is in
-                Business & Industrial Park (eka Industrial Area), Phase 2,
-                Chandigarh (Since 2019) and second one is in Sector 5 (eka
-                Peermuchalla), Zirakpur, SAS Nagar. We are currently Operational
-                only in Chandigarh Tri-City.
+                Goyco is built on a simple belief- India has unique challenges
+                and those challenges deserve unique solutions. It started with a
+                simple thought - to serve our country by building things that
+                make a difference. We believe that serving the nation is not
+                limited to one field or one way. We are a group of people who
+                are willing to think beyond the conventional, identify what can
+                be done better and most importantly act upon those ideas. Our
+                aim is to create practical, innovative and sustainable solutions
+                that are relevant to India and its people. Each initiative may
+                belong to a different category but the thought remains the same
+                - &quot;identify a need, build a solutions and make it
+                happen&quot;. Goyco is therefore not limited to one industry ,
+                one idea or one kind of business. Over time, this thought has
+                grown into a growing network across India. We have built and
+                developed multiple solutions across different categories.
+                Through our work, we have also build a strong and growing
+                clientele across India. For us, it is not just building
+                bussiness,it is about building solutions with a purpose.
               </p>
 
               <div className="row mt-5">
                 <div className="col-6">
                   <div className="counter-card">
-                    <h3>100+</h3>
+                    <h3>2</h3>
 
-                    <p>Projects</p>
+                    <p>Ventures</p>
                   </div>
                 </div>
 
                 <div className="col-6">
                   <div className="counter-card">
-                    <h3>25+</h3>
+                    <h3>4+</h3>
 
-                    <p>Experts</p>
+                    <p>Solutions</p>
                   </div>
                 </div>
               </div>
@@ -72,9 +73,7 @@ export default function About() {
           <div className="text-center mb-5">
             <h2 className="fw-bold">Mission & Vision</h2>
 
-            <p className="text-muted">
-              Building technology that empowers businesses.
-            </p>
+            <p className="text-muted">Building Unique Solutions for India.</p>
           </div>
 
           <div className="row g-4">
@@ -88,11 +87,15 @@ export default function About() {
                   <h3 className="ps-3">Our Mission</h3>
                 </div>
 
-                <p className="mt-2">
-                  Deliver innovative, scalable, and reliable software solutions
-                  that simplify business operations while creating long-term
-                  value for our clients.
-                </p>
+                <div className="mt-2 d-flex">
+                  <div
+                    className="icon-circle"
+                    style={{ background: "transparent" }}
+                  ></div>
+                  <div className="ps-3">
+                    Build Unique Solutions for India which are really required.
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -105,18 +108,21 @@ export default function About() {
 
                   <h3 className="ps-3">Our Vision</h3>
                 </div>
-
-                <p className="mt-2">
-                  To become a globally trusted technology partner recognized for
-                  innovation, excellence, and transforming businesses through
-                  digital solutions.
-                </p>
+                <div className="mt-2  d-flex">
+                  <div
+                    className="icon-circle"
+                    style={{ background: "transparent" }}
+                  ></div>
+                  <div className="ps-3">
+                    Play our role in Development of our Country.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="team-section py-5">
+      {/* <section className="team-section py-5">
         <div className="container">
           <div className="text-center mb-5">
             <span className="section-tag">Our Team</span>
@@ -194,7 +200,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

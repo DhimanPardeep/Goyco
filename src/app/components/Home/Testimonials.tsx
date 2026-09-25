@@ -41,7 +41,7 @@ export default function Testimonials() {
 
             <div className="client-card">
               <Image
-                src={`${basePath}/images/2.jpg`}
+                src={`${basePath}/images/client/1.jpg`}
                 className="client-img"
                 alt="Client"
                 height={90}
@@ -67,7 +67,7 @@ export default function Testimonials() {
             </div>
             <div className="client-card">
               <Image
-                src={`${basePath}/images/2.jpg`}
+                src={`${basePath}/images/client/1.jpg`}
                 className="client-img"
                 alt="Client"
                 height={90}
@@ -93,7 +93,7 @@ export default function Testimonials() {
             </div>
             <div className="client-card">
               <Image
-                src={`${basePath}/images/2.jpg`}
+                src={`${basePath}/images/client/1.jpg`}
                 className="client-img"
                 alt="Client"
                 height={90}

@@ -13,7 +13,7 @@ export default function Ventures() {
             <div className="venture-card h-100">
               <div className="venture-logo">
                 <Image
-                  src={`${basePath}/images/Goyco1.png`}
+                  src={`${basePath}/images/logo/Goyco1.png`}
                   className="img-fluid"
                   alt=""
                   width={200}
@@ -43,7 +43,7 @@ export default function Ventures() {
             <div className="venture-card h-100">
               <div className="venture-logo">
                 <Image
-                  src={`${basePath}/images/Goyco1.png`}
+                  src={`${basePath}/images/logo/Goyco1.png`}
                   className="img-fluid"
                   width={200}
                   height={120}

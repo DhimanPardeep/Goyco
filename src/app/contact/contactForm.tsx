@@ -1,5 +1,4 @@
 "use client";
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 import { FormEvent, useState } from "react";
 export default function ContactFrom() {
   const [status, setStatus] = useState<
