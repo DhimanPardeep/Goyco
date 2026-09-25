@@ -37,13 +37,14 @@ export default function Solutions() {
 
           <div className="col-md-6 col-lg-3">
             <div className="solution-card">
-              <div className="solution-image">
+              <div className="solution-image" style={{ width: "200px" }}>
                 <Image
-                  src={`${basePath}/images/logo/NEEVSPACES.jpeg`}
+                  src={`${basePath}/images/logo/NEEVSPACES.jpg`}
                   className="img-fluid"
                   alt=""
+                  style={{ width: "200px" }}
                   height={150}
-                  width={150}
+                  width={200}
                 ></Image>
               </div>
 
@@ -63,13 +64,14 @@ export default function Solutions() {
 
           <div className="col-md-6 col-lg-3">
             <div className="solution-card">
-              <div className="solution-image">
+              <div className="solution-image" style={{ width: "200px" }}>
                 <Image
-                  src={`${basePath}/images/logo/workyard.png`}
+                  src={`${basePath}/images/logo/GolphoenAggregations.jpg`}
                   className="img-fluid"
                   alt=""
+                  style={{ width: "200px" }}
                   height={150}
-                  width={150}
+                  width={200}
                 ></Image>
               </div>
 
