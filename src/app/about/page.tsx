@@ -23,9 +23,9 @@ export default function About() {
             </div>
 
             <div className="col-lg-6">
-              <span className="section-title"> ABOUT US </span>
+              <span className="section-title "> ABOUT US </span>
 
-              <p>
+              <p className="mt-3">
                 Goyco is built on a simple belief- India has unique challenges
                 and those challenges deserve unique solutions. It started with a
                 simple thought - to serve our country by building things that
