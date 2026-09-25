@@ -81,15 +81,17 @@ export default function Footer() {
                   WorkYard
                 </a>
               </li>
-              <li>
-                <a href="https://golphoen.com" target="_blank">
-                  Golphoen
-                </a>
-              </li>
+
               <li>
                 <a href="https://neevspaces.com/" target="_blank">
                   NeevSpaces
                 </a>
+              </li>
+              <li>
+                <a href="#">Golphoen Aggregations</a>
+              </li>
+              <li>
+                <a href="#">Golphoen Chandigarh Edition</a>
               </li>
             </ul>
           </div>
